@@ -28,7 +28,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/3.27.4/CompilerIdC/a.out
+        /home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/3.27.4/CompilerIdC/a.out
       
   -
     kind: "message-v1"
@@ -50,7 +50,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/3.27.4/CompilerIdCXX/a.out
+        /home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/3.27.4/CompilerIdCXX/a.out
       
   -
     kind: "try_compile-v1"
@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-vYBt16"
-      binary: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-vYBt16"
+      source: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-BMmDhw"
+      binary: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-BMmDhw"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -70,13 +70,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-vYBt16'
+        Change Dir: '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-BMmDhw'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e345c/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_e345c.dir/build.make CMakeFiles/cmTC_e345c.dir/build
-        make[1]: Entering directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-vYBt16'
-        Building C object CMakeFiles/cmTC_e345c.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_e345c.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6b6c1/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_6b6c1.dir/build.make CMakeFiles/cmTC_6b6c1.dir/build
+        make[1]: Entering directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-BMmDhw'
+        Building C object CMakeFiles/cmTC_6b6c1.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_6b6c1.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         Target: x86_64-pc-linux-gnu
@@ -84,8 +84,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.2.1 20230801 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e345c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e345c.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e345c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccIJV32r.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6b6c1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6b6c1.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_6b6c1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccRKOcPp.s
         GNU C17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 13.2.1 20230801, GMP version 6.3.0, MPFR version 4.2.0-p12, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -100,15 +100,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 865c2688a4f1e3f13d6bf2cc8fd98762
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e345c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e345c.dir/'
-         as -v --64 -o CMakeFiles/cmTC_e345c.dir/CMakeCCompilerABI.c.o /tmp/ccIJV32r.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6b6c1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6b6c1.dir/'
+         as -v --64 -o CMakeFiles/cmTC_6b6c1.dir/CMakeCCompilerABI.c.o /tmp/ccRKOcPp.s
         GNU assembler version 2.41.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.41.0
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e345c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e345c.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_e345c
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e345c.dir/link.txt --verbose=1
-        /usr/bin/cc  -v CMakeFiles/cmTC_e345c.dir/CMakeCCompilerABI.c.o -o cmTC_e345c 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6b6c1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6b6c1.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_6b6c1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b6c1.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_6b6c1.dir/CMakeCCompilerABI.c.o -o cmTC_6b6c1 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper
@@ -119,10 +119,10 @@ events:
         gcc version 13.2.1 20230801 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e345c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e345c.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJ51x4P.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e345c /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_e345c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e345c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e345c.'
-        make[1]: Leaving directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-vYBt16'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6b6c1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6b6c1.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUt94RZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_6b6c1 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_6b6c1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6b6c1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6b6c1.'
+        make[1]: Leaving directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-BMmDhw'
         
       exitCode: 0
   -
@@ -156,13 +156,13 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-vYBt16']
+        ignore line: [Change Dir: '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-BMmDhw']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e345c/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_e345c.dir/build.make CMakeFiles/cmTC_e345c.dir/build]
-        ignore line: [make[1]: Entering directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-vYBt16']
-        ignore line: [Building C object CMakeFiles/cmTC_e345c.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_e345c.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6b6c1/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_6b6c1.dir/build.make CMakeFiles/cmTC_6b6c1.dir/build]
+        ignore line: [make[1]: Entering directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-BMmDhw']
+        ignore line: [Building C object CMakeFiles/cmTC_6b6c1.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_6b6c1.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -170,8 +170,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.2.1 20230801 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e345c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e345c.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e345c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccIJV32r.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6b6c1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6b6c1.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_6b6c1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccRKOcPp.s]
         ignore line: [GNU C17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.2.1 20230801  GMP version 6.3.0  MPFR version 4.2.0-p12  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -186,15 +186,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 865c2688a4f1e3f13d6bf2cc8fd98762]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e345c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e345c.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_e345c.dir/CMakeCCompilerABI.c.o /tmp/ccIJV32r.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6b6c1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6b6c1.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_6b6c1.dir/CMakeCCompilerABI.c.o /tmp/ccRKOcPp.s]
         ignore line: [GNU assembler version 2.41.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.41.0]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e345c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e345c.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_e345c]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e345c.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_e345c.dir/CMakeCCompilerABI.c.o -o cmTC_e345c ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6b6c1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6b6c1.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_6b6c1]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b6c1.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_6b6c1.dir/CMakeCCompilerABI.c.o -o cmTC_6b6c1 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper]
@@ -205,13 +205,13 @@ events:
         ignore line: [gcc version 13.2.1 20230801 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e345c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e345c.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJ51x4P.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e345c /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_e345c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6b6c1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6b6c1.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUt94RZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_6b6c1 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_6b6c1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccJ51x4P.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccUt94RZ.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -226,7 +226,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_e345c] ==> ignore
+          arg [cmTC_6b6c1] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o]
@@ -235,7 +235,7 @@ events:
           arg [-L/lib/../lib] ==> dir [/lib/../lib]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..]
-          arg [CMakeFiles/cmTC_e345c.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_6b6c1.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -272,8 +272,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-nSHoJz"
-      binary: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-nSHoJz"
+      source: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-xhd1j9"
+      binary: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-xhd1j9"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -281,13 +281,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-nSHoJz'
+        Change Dir: '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-xhd1j9'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d4bc4/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_d4bc4.dir/build.make CMakeFiles/cmTC_d4bc4.dir/build
-        make[1]: Entering directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-nSHoJz'
-        Building CXX object CMakeFiles/cmTC_d4bc4.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_d4bc4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ffc1b/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ffc1b.dir/build.make CMakeFiles/cmTC_ffc1b.dir/build
+        make[1]: Entering directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-xhd1j9'
+        Building CXX object CMakeFiles/cmTC_ffc1b.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_ffc1b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         Target: x86_64-pc-linux-gnu
@@ -295,8 +295,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.2.1 20230801 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4bc4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4bc4.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d4bc4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc5sn3GQ.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ffc1b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ffc1b.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ffc1b.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc9b1iMj.s
         GNU C++17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 13.2.1 20230801, GMP version 6.3.0, MPFR version 4.2.0-p12, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -314,15 +314,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 5a490a353c29b926850bca65a518c219
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4bc4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4bc4.dir/'
-         as -v --64 -o CMakeFiles/cmTC_d4bc4.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc5sn3GQ.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ffc1b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ffc1b.dir/'
+         as -v --64 -o CMakeFiles/cmTC_ffc1b.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc9b1iMj.s
         GNU assembler version 2.41.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.41.0
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4bc4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4bc4.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_d4bc4
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4bc4.dir/link.txt --verbose=1
-        /usr/bin/c++  -v CMakeFiles/cmTC_d4bc4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d4bc4 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ffc1b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ffc1b.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_ffc1b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffc1b.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_ffc1b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ffc1b 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper
@@ -333,10 +333,10 @@ events:
         gcc version 13.2.1 20230801 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d4bc4' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d4bc4.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMse9aa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d4bc4 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_d4bc4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d4bc4' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d4bc4.'
-        make[1]: Leaving directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-nSHoJz'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ffc1b' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ffc1b.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cci78RoB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ffc1b /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_ffc1b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ffc1b' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ffc1b.'
+        make[1]: Leaving directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-xhd1j9'
         
       exitCode: 0
   -
@@ -376,13 +376,13 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-nSHoJz']
+        ignore line: [Change Dir: '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-xhd1j9']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d4bc4/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_d4bc4.dir/build.make CMakeFiles/cmTC_d4bc4.dir/build]
-        ignore line: [make[1]: Entering directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-nSHoJz']
-        ignore line: [Building CXX object CMakeFiles/cmTC_d4bc4.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_d4bc4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ffc1b/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_ffc1b.dir/build.make CMakeFiles/cmTC_ffc1b.dir/build]
+        ignore line: [make[1]: Entering directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-xhd1j9']
+        ignore line: [Building CXX object CMakeFiles/cmTC_ffc1b.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_ffc1b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -390,8 +390,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.2.1 20230801 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4bc4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4bc4.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d4bc4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc5sn3GQ.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ffc1b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ffc1b.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ffc1b.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc9b1iMj.s]
         ignore line: [GNU C++17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.2.1 20230801  GMP version 6.3.0  MPFR version 4.2.0-p12  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -409,15 +409,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 5a490a353c29b926850bca65a518c219]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4bc4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4bc4.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_d4bc4.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc5sn3GQ.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ffc1b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ffc1b.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_ffc1b.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc9b1iMj.s]
         ignore line: [GNU assembler version 2.41.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.41.0]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4bc4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4bc4.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_d4bc4]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4bc4.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_d4bc4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d4bc4 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ffc1b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ffc1b.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_ffc1b]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffc1b.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_ffc1b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ffc1b ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper]
@@ -428,13 +428,13 @@ events:
         ignore line: [gcc version 13.2.1 20230801 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d4bc4' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d4bc4.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMse9aa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d4bc4 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_d4bc4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ffc1b' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ffc1b.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cci78RoB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ffc1b /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_ffc1b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccMse9aa.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cci78RoB.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -449,7 +449,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_d4bc4] ==> ignore
+          arg [cmTC_ffc1b] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o]
@@ -458,7 +458,7 @@ events:
           arg [-L/lib/../lib] ==> dir [/lib/../lib]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..]
-          arg [CMakeFiles/cmTC_d4bc4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_ffc1b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -496,8 +496,8 @@ events:
       - "/usr/share/pcl-1.13/PCLConfig.cmake:546 (find_external_library)"
       - "CMakeLists.txt:5 (find_package)"
     directories:
-      source: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeTmp"
-      binary: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeTmp"
+      source: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeTmp"
+      binary: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -507,13 +507,13 @@ events:
       variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
       cached: true
       stdout: |
-        Change Dir: '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeTmp'
+        Change Dir: '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3bdc4/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_3bdc4.dir/build.make CMakeFiles/cmTC_3bdc4.dir/build
-        make[1]: Entering directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeTmp'
-        Building C object CMakeFiles/cmTC_3bdc4.dir/OpenMPTryFlag.c.o
-        /usr/bin/cc   -fopenmp -v -o CMakeFiles/cmTC_3bdc4.dir/OpenMPTryFlag.c.o -c /home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_453a6/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_453a6.dir/build.make CMakeFiles/cmTC_453a6.dir/build
+        make[1]: Entering directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_453a6.dir/OpenMPTryFlag.c.o
+        /usr/bin/cc   -fopenmp -v -o CMakeFiles/cmTC_453a6.dir/OpenMPTryFlag.c.o -c /home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         Target: x86_64-pc-linux-gnu
@@ -521,8 +521,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.2.1 20230801 (GCC) 
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3bdc4.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_3bdc4.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v -D_REENTRANT /home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_3bdc4.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fopenmp -o /tmp/cce0md0i.s
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_453a6.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_453a6.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v -D_REENTRANT /home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_453a6.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fopenmp -o /tmp/ccxUiszR.s
         GNU C17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 13.2.1 20230801, GMP version 6.3.0, MPFR version 4.2.0-p12, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -537,15 +537,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 865c2688a4f1e3f13d6bf2cc8fd98762
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3bdc4.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_3bdc4.dir/'
-         as -v --64 -o CMakeFiles/cmTC_3bdc4.dir/OpenMPTryFlag.c.o /tmp/cce0md0i.s
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_453a6.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_453a6.dir/'
+         as -v --64 -o CMakeFiles/cmTC_453a6.dir/OpenMPTryFlag.c.o /tmp/ccxUiszR.s
         GNU assembler version 2.41.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.41.0
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3bdc4.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_3bdc4.dir/OpenMPTryFlag.c.'
-        Linking C executable cmTC_3bdc4
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bdc4.dir/link.txt --verbose=1
-        /usr/bin/cc  -fopenmp -v CMakeFiles/cmTC_3bdc4.dir/OpenMPTryFlag.c.o -o cmTC_3bdc4  -v 
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_453a6.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_453a6.dir/OpenMPTryFlag.c.'
+        Linking C executable cmTC_453a6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_453a6.dir/link.txt --verbose=1
+        /usr/bin/cc  -fopenmp -v CMakeFiles/cmTC_453a6.dir/OpenMPTryFlag.c.o -o cmTC_453a6  -v 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper
@@ -557,10 +557,10 @@ events:
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
         Reading specs from /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/libgomp.spec
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_3bdc4' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_3bdc4.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqOk3Xl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_3bdc4 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_3bdc4.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_3bdc4' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_3bdc4.'
-        make[1]: Leaving directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeTmp'
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_453a6' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_453a6.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHjYC9V.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_453a6 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_453a6.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_453a6' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_453a6.'
+        make[1]: Leaving directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeTmp'
         
       exitCode: 0
   -
@@ -577,8 +577,8 @@ events:
       - "/usr/share/pcl-1.13/PCLConfig.cmake:546 (find_external_library)"
       - "CMakeLists.txt:5 (find_package)"
     directories:
-      source: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeTmp"
-      binary: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeTmp"
+      source: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeTmp"
+      binary: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -588,13 +588,13 @@ events:
       variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
       cached: true
       stdout: |
-        Change Dir: '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeTmp'
+        Change Dir: '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c6437/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_c6437.dir/build.make CMakeFiles/cmTC_c6437.dir/build
-        make[1]: Entering directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeTmp'
-        Building CXX object CMakeFiles/cmTC_c6437.dir/OpenMPTryFlag.cpp.o
-        /usr/bin/c++   -fopenmp -v -o CMakeFiles/cmTC_c6437.dir/OpenMPTryFlag.cpp.o -c /home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5da0e/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_5da0e.dir/build.make CMakeFiles/cmTC_5da0e.dir/build
+        make[1]: Entering directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_5da0e.dir/OpenMPTryFlag.cpp.o
+        /usr/bin/c++   -fopenmp -v -o CMakeFiles/cmTC_5da0e.dir/OpenMPTryFlag.cpp.o -c /home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         Target: x86_64-pc-linux-gnu
@@ -602,8 +602,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.2.1 20230801 (GCC) 
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c6437.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_c6437.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT /home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_c6437.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fopenmp -o /tmp/cc76Kwbx.s
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_5da0e.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_5da0e.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT /home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_5da0e.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fopenmp -o /tmp/ccBo4fDS.s
         GNU C++17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 13.2.1 20230801, GMP version 6.3.0, MPFR version 4.2.0-p12, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -621,15 +621,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 5a490a353c29b926850bca65a518c219
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c6437.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_c6437.dir/'
-         as -v --64 -o CMakeFiles/cmTC_c6437.dir/OpenMPTryFlag.cpp.o /tmp/cc76Kwbx.s
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_5da0e.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_5da0e.dir/'
+         as -v --64 -o CMakeFiles/cmTC_5da0e.dir/OpenMPTryFlag.cpp.o /tmp/ccBo4fDS.s
         GNU assembler version 2.41.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.41.0
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c6437.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_c6437.dir/OpenMPTryFlag.cpp.'
-        Linking CXX executable cmTC_c6437
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6437.dir/link.txt --verbose=1
-        /usr/bin/c++  -fopenmp -v CMakeFiles/cmTC_c6437.dir/OpenMPTryFlag.cpp.o -o cmTC_c6437  -v 
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_5da0e.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_5da0e.dir/OpenMPTryFlag.cpp.'
+        Linking CXX executable cmTC_5da0e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5da0e.dir/link.txt --verbose=1
+        /usr/bin/c++  -fopenmp -v CMakeFiles/cmTC_5da0e.dir/OpenMPTryFlag.cpp.o -o cmTC_5da0e  -v 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper
@@ -641,10 +641,10 @@ events:
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
         Reading specs from /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/libgomp.spec
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_c6437' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_c6437.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6Y3dPn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c6437 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_c6437.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_c6437' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_c6437.'
-        make[1]: Leaving directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeTmp'
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_5da0e' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_5da0e.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgUDHw1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5da0e /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_5da0e.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_5da0e' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_5da0e.'
+        make[1]: Leaving directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeTmp'
         
       exitCode: 0
   -
@@ -661,8 +661,8 @@ events:
       - "/usr/share/pcl-1.13/PCLConfig.cmake:546 (find_external_library)"
       - "CMakeLists.txt:5 (find_package)"
     directories:
-      source: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeTmp"
-      binary: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeTmp"
+      source: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeTmp"
+      binary: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -672,17 +672,17 @@ events:
       variable: "OpenMP_SPECTEST_CXX_"
       cached: true
       stdout: |
-        Change Dir: '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeTmp'
+        Change Dir: '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e4ddf/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_e4ddf.dir/build.make CMakeFiles/cmTC_e4ddf.dir/build
-        make[1]: Entering directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeTmp'
-        Building CXX object CMakeFiles/cmTC_e4ddf.dir/OpenMPCheckVersion.cpp.o
-        /usr/bin/c++   -fopenmp -o CMakeFiles/cmTC_e4ddf.dir/OpenMPCheckVersion.cpp.o -c /home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp
-        Linking CXX executable cmTC_e4ddf
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4ddf.dir/link.txt --verbose=1
-        /usr/bin/c++  -fopenmp CMakeFiles/cmTC_e4ddf.dir/OpenMPCheckVersion.cpp.o -o cmTC_e4ddf 
-        make[1]: Leaving directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeTmp'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_35928/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_35928.dir/build.make CMakeFiles/cmTC_35928.dir/build
+        make[1]: Entering directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_35928.dir/OpenMPCheckVersion.cpp.o
+        /usr/bin/c++   -fopenmp -o CMakeFiles/cmTC_35928.dir/OpenMPCheckVersion.cpp.o -c /home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp
+        Linking CXX executable cmTC_35928
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35928.dir/link.txt --verbose=1
+        /usr/bin/c++  -fopenmp CMakeFiles/cmTC_35928.dir/OpenMPCheckVersion.cpp.o -o cmTC_35928 
+        make[1]: Leaving directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeTmp'
         
       exitCode: 0
   -
@@ -703,8 +703,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-FpGndH"
-      binary: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-FpGndH"
+      source: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-9bu4hM"
+      binary: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-9bu4hM"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -714,17 +714,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-FpGndH'
+        Change Dir: '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-9bu4hM'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9230a/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_9230a.dir/build.make CMakeFiles/cmTC_9230a.dir/build
-        make[1]: Entering directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-FpGndH'
-        Building C object CMakeFiles/cmTC_9230a.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_9230a.dir/src.c.o -c /home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-FpGndH/src.c
-        Linking C executable cmTC_9230a
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9230a.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_9230a.dir/src.c.o -o cmTC_9230a 
-        make[1]: Leaving directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-FpGndH'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2dec5/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_2dec5.dir/build.make CMakeFiles/cmTC_2dec5.dir/build
+        make[1]: Entering directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-9bu4hM'
+        Building C object CMakeFiles/cmTC_2dec5.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_2dec5.dir/src.c.o -c /home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-9bu4hM/src.c
+        Linking C executable cmTC_2dec5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2dec5.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_2dec5.dir/src.c.o -o cmTC_2dec5 
+        make[1]: Leaving directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-9bu4hM'
         
       exitCode: 0
   -
@@ -742,8 +742,8 @@ events:
       - "CMakeLists.txt:5 (find_package)"
     description: "The MPI test test_mpi for C in mode normal"
     directories:
-      source: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-FMdd8b"
-      binary: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-FMdd8b"
+      source: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-2AaPq1"
+      binary: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-2AaPq1"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -753,17 +753,17 @@ events:
       variable: "MPI_RESULT_C_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-FMdd8b'
+        Change Dir: '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-2AaPq1'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7afc9/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_7afc9.dir/build.make CMakeFiles/cmTC_7afc9.dir/build
-        make[1]: Entering directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-FMdd8b'
-        Building C object CMakeFiles/cmTC_7afc9.dir/test_mpi.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_7afc9.dir/test_mpi.c.o -c /home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-FMdd8b/test_mpi.c
-        Linking C executable cmTC_7afc9
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7afc9.dir/link.txt --verbose=1
-        /usr/bin/cc -Wl,-rpath -Wl,/usr/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_7afc9.dir/test_mpi.c.o -o cmTC_7afc9  /usr/lib/libmpi.so 
-        make[1]: Leaving directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-FMdd8b'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_18473/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_18473.dir/build.make CMakeFiles/cmTC_18473.dir/build
+        make[1]: Entering directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-2AaPq1'
+        Building C object CMakeFiles/cmTC_18473.dir/test_mpi.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_18473.dir/test_mpi.c.o -c /home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-2AaPq1/test_mpi.c
+        Linking C executable cmTC_18473
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18473.dir/link.txt --verbose=1
+        /usr/bin/cc -Wl,-rpath -Wl,/usr/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_18473.dir/test_mpi.c.o -o cmTC_18473  /usr/lib/libmpi.so 
+        make[1]: Leaving directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-2AaPq1'
         
       exitCode: 0
   -
@@ -781,8 +781,8 @@ events:
       - "CMakeLists.txt:5 (find_package)"
     description: "The MPI test test_mpi for CXX in mode normal"
     directories:
-      source: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-sWkGCh"
-      binary: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-sWkGCh"
+      source: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-0IxrpC"
+      binary: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-0IxrpC"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -792,17 +792,17 @@ events:
       variable: "MPI_RESULT_CXX_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-sWkGCh'
+        Change Dir: '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-0IxrpC'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6bfb6/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_6bfb6.dir/build.make CMakeFiles/cmTC_6bfb6.dir/build
-        make[1]: Entering directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-sWkGCh'
-        Building CXX object CMakeFiles/cmTC_6bfb6.dir/test_mpi.cpp.o
-        /usr/bin/c++    -o CMakeFiles/cmTC_6bfb6.dir/test_mpi.cpp.o -c /home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-sWkGCh/test_mpi.cpp
-        Linking CXX executable cmTC_6bfb6
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6bfb6.dir/link.txt --verbose=1
-        /usr/bin/c++ -Wl,-rpath -Wl,/usr/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_6bfb6.dir/test_mpi.cpp.o -o cmTC_6bfb6  /usr/lib/libmpi_cxx.so /usr/lib/libmpi.so 
-        make[1]: Leaving directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-sWkGCh'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f4d23/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_f4d23.dir/build.make CMakeFiles/cmTC_f4d23.dir/build
+        make[1]: Entering directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-0IxrpC'
+        Building CXX object CMakeFiles/cmTC_f4d23.dir/test_mpi.cpp.o
+        /usr/bin/c++    -o CMakeFiles/cmTC_f4d23.dir/test_mpi.cpp.o -c /home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-0IxrpC/test_mpi.cpp
+        Linking CXX executable cmTC_f4d23
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4d23.dir/link.txt --verbose=1
+        /usr/bin/c++ -Wl,-rpath -Wl,/usr/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_f4d23.dir/test_mpi.cpp.o -o cmTC_f4d23  /usr/lib/libmpi_cxx.so /usr/lib/libmpi.so 
+        make[1]: Leaving directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-0IxrpC'
         
       exitCode: 0
   -
@@ -819,8 +819,8 @@ events:
       - "CMakeLists.txt:5 (find_package)"
     description: "The MPI test test_mpi for CXX in mode MPICXX"
     directories:
-      source: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-PsJoxv"
-      binary: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-PsJoxv"
+      source: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-Ai3ing"
+      binary: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-Ai3ing"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -830,17 +830,17 @@ events:
       variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
       cached: true
       stdout: |
-        Change Dir: '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-PsJoxv'
+        Change Dir: '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-Ai3ing'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d1b67/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_d1b67.dir/build.make CMakeFiles/cmTC_d1b67.dir/build
-        make[1]: Entering directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-PsJoxv'
-        Building CXX object CMakeFiles/cmTC_d1b67.dir/test_mpi.cpp.o
-        /usr/bin/c++    -o CMakeFiles/cmTC_d1b67.dir/test_mpi.cpp.o -c /home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-PsJoxv/test_mpi.cpp
-        Linking CXX executable cmTC_d1b67
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1b67.dir/link.txt --verbose=1
-        /usr/bin/c++ -Wl,-rpath -Wl,/usr/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_d1b67.dir/test_mpi.cpp.o -o cmTC_d1b67  /usr/lib/libmpi_cxx.so /usr/lib/libmpi.so 
-        make[1]: Leaving directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-PsJoxv'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_536ac/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_536ac.dir/build.make CMakeFiles/cmTC_536ac.dir/build
+        make[1]: Entering directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-Ai3ing'
+        Building CXX object CMakeFiles/cmTC_536ac.dir/test_mpi.cpp.o
+        /usr/bin/c++    -o CMakeFiles/cmTC_536ac.dir/test_mpi.cpp.o -c /home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-Ai3ing/test_mpi.cpp
+        Linking CXX executable cmTC_536ac
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_536ac.dir/link.txt --verbose=1
+        /usr/bin/c++ -Wl,-rpath -Wl,/usr/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_536ac.dir/test_mpi.cpp.o -o cmTC_536ac  /usr/lib/libmpi_cxx.so /usr/lib/libmpi.so 
+        make[1]: Leaving directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-Ai3ing'
         
       exitCode: 0
   -
@@ -857,8 +857,8 @@ events:
     checks:
       - "Looking for XOpenDisplay in /usr/lib/libX11.so;/usr/lib/libXext.so"
     directories:
-      source: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-VgrdFP"
-      binary: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-VgrdFP"
+      source: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-suuhHP"
+      binary: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-suuhHP"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -868,17 +868,17 @@ events:
       variable: "X11_LIB_X11_SOLO"
       cached: true
       stdout: |
-        Change Dir: '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-VgrdFP'
+        Change Dir: '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-suuhHP'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_feda0/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_feda0.dir/build.make CMakeFiles/cmTC_feda0.dir/build
-        make[1]: Entering directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-VgrdFP'
-        Building C object CMakeFiles/cmTC_feda0.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_feda0.dir/CheckFunctionExists.c.o -c /home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-VgrdFP/CheckFunctionExists.c
-        Linking C executable cmTC_feda0
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_feda0.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_feda0.dir/CheckFunctionExists.c.o -o cmTC_feda0  /usr/lib/libX11.so /usr/lib/libXext.so 
-        make[1]: Leaving directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-VgrdFP'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4827e/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_4827e.dir/build.make CMakeFiles/cmTC_4827e.dir/build
+        make[1]: Entering directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-suuhHP'
+        Building C object CMakeFiles/cmTC_4827e.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_4827e.dir/CheckFunctionExists.c.o -c /home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-suuhHP/CheckFunctionExists.c
+        Linking C executable cmTC_4827e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4827e.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_4827e.dir/CheckFunctionExists.c.o -o cmTC_4827e  /usr/lib/libX11.so /usr/lib/libXext.so 
+        make[1]: Leaving directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-suuhHP'
         
       exitCode: 0
   -
@@ -895,8 +895,8 @@ events:
     checks:
       - "Looking for gethostbyname"
     directories:
-      source: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-qgtE0n"
-      binary: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-qgtE0n"
+      source: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-e4egGX"
+      binary: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-e4egGX"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -906,17 +906,17 @@ events:
       variable: "CMAKE_HAVE_GETHOSTBYNAME"
       cached: true
       stdout: |
-        Change Dir: '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-qgtE0n'
+        Change Dir: '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-e4egGX'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7c051/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_7c051.dir/build.make CMakeFiles/cmTC_7c051.dir/build
-        make[1]: Entering directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-qgtE0n'
-        Building C object CMakeFiles/cmTC_7c051.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_7c051.dir/CheckFunctionExists.c.o -c /home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-qgtE0n/CheckFunctionExists.c
-        Linking C executable cmTC_7c051
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c051.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_7c051.dir/CheckFunctionExists.c.o -o cmTC_7c051 
-        make[1]: Leaving directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-qgtE0n'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_73fe7/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_73fe7.dir/build.make CMakeFiles/cmTC_73fe7.dir/build
+        make[1]: Entering directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-e4egGX'
+        Building C object CMakeFiles/cmTC_73fe7.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_73fe7.dir/CheckFunctionExists.c.o -c /home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-e4egGX/CheckFunctionExists.c
+        Linking C executable cmTC_73fe7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73fe7.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_73fe7.dir/CheckFunctionExists.c.o -o cmTC_73fe7 
+        make[1]: Leaving directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-e4egGX'
         
       exitCode: 0
   -
@@ -933,8 +933,8 @@ events:
     checks:
       - "Looking for connect"
     directories:
-      source: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-BHkCEB"
-      binary: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-BHkCEB"
+      source: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-t6eFed"
+      binary: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-t6eFed"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -944,17 +944,17 @@ events:
       variable: "CMAKE_HAVE_CONNECT"
       cached: true
       stdout: |
-        Change Dir: '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-BHkCEB'
+        Change Dir: '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-t6eFed'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fb868/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_fb868.dir/build.make CMakeFiles/cmTC_fb868.dir/build
-        make[1]: Entering directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-BHkCEB'
-        Building C object CMakeFiles/cmTC_fb868.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_fb868.dir/CheckFunctionExists.c.o -c /home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-BHkCEB/CheckFunctionExists.c
-        Linking C executable cmTC_fb868
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb868.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_fb868.dir/CheckFunctionExists.c.o -o cmTC_fb868 
-        make[1]: Leaving directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-BHkCEB'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6adcd/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_6adcd.dir/build.make CMakeFiles/cmTC_6adcd.dir/build
+        make[1]: Entering directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-t6eFed'
+        Building C object CMakeFiles/cmTC_6adcd.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_6adcd.dir/CheckFunctionExists.c.o -c /home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-t6eFed/CheckFunctionExists.c
+        Linking C executable cmTC_6adcd
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6adcd.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_6adcd.dir/CheckFunctionExists.c.o -o cmTC_6adcd 
+        make[1]: Leaving directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-t6eFed'
         
       exitCode: 0
   -
@@ -971,8 +971,8 @@ events:
     checks:
       - "Looking for remove"
     directories:
-      source: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-BlWBtC"
-      binary: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-BlWBtC"
+      source: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-2uF4Zy"
+      binary: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-2uF4Zy"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -982,17 +982,17 @@ events:
       variable: "CMAKE_HAVE_REMOVE"
       cached: true
       stdout: |
-        Change Dir: '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-BlWBtC'
+        Change Dir: '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-2uF4Zy'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bcc52/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_bcc52.dir/build.make CMakeFiles/cmTC_bcc52.dir/build
-        make[1]: Entering directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-BlWBtC'
-        Building C object CMakeFiles/cmTC_bcc52.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_bcc52.dir/CheckFunctionExists.c.o -c /home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-BlWBtC/CheckFunctionExists.c
-        Linking C executable cmTC_bcc52
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcc52.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_bcc52.dir/CheckFunctionExists.c.o -o cmTC_bcc52 
-        make[1]: Leaving directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-BlWBtC'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_25cfd/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_25cfd.dir/build.make CMakeFiles/cmTC_25cfd.dir/build
+        make[1]: Entering directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-2uF4Zy'
+        Building C object CMakeFiles/cmTC_25cfd.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_25cfd.dir/CheckFunctionExists.c.o -c /home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-2uF4Zy/CheckFunctionExists.c
+        Linking C executable cmTC_25cfd
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25cfd.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_25cfd.dir/CheckFunctionExists.c.o -o cmTC_25cfd 
+        make[1]: Leaving directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-2uF4Zy'
         
       exitCode: 0
   -
@@ -1009,8 +1009,8 @@ events:
     checks:
       - "Looking for shmat"
     directories:
-      source: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-vgTidi"
-      binary: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-vgTidi"
+      source: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-2RH9Si"
+      binary: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-2RH9Si"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1020,17 +1020,17 @@ events:
       variable: "CMAKE_HAVE_SHMAT"
       cached: true
       stdout: |
-        Change Dir: '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-vgTidi'
+        Change Dir: '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-2RH9Si'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3d1c2/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_3d1c2.dir/build.make CMakeFiles/cmTC_3d1c2.dir/build
-        make[1]: Entering directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-vgTidi'
-        Building C object CMakeFiles/cmTC_3d1c2.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_3d1c2.dir/CheckFunctionExists.c.o -c /home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-vgTidi/CheckFunctionExists.c
-        Linking C executable cmTC_3d1c2
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d1c2.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_3d1c2.dir/CheckFunctionExists.c.o -o cmTC_3d1c2 
-        make[1]: Leaving directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-vgTidi'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c7385/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_c7385.dir/build.make CMakeFiles/cmTC_c7385.dir/build
+        make[1]: Entering directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-2RH9Si'
+        Building C object CMakeFiles/cmTC_c7385.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_c7385.dir/CheckFunctionExists.c.o -c /home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-2RH9Si/CheckFunctionExists.c
+        Linking C executable cmTC_c7385
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7385.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_c7385.dir/CheckFunctionExists.c.o -o cmTC_c7385 
+        make[1]: Leaving directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-2RH9Si'
         
       exitCode: 0
   -
@@ -1047,8 +1047,8 @@ events:
     checks:
       - "Looking for IceConnectionNumber in ICE"
     directories:
-      source: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-PW6PGK"
-      binary: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-PW6PGK"
+      source: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-uKmtte"
+      binary: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-uKmtte"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1058,17 +1058,17 @@ events:
       variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
       cached: true
       stdout: |
-        Change Dir: '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-PW6PGK'
+        Change Dir: '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-uKmtte'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_59f65/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_59f65.dir/build.make CMakeFiles/cmTC_59f65.dir/build
-        make[1]: Entering directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-PW6PGK'
-        Building C object CMakeFiles/cmTC_59f65.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_59f65.dir/CheckFunctionExists.c.o -c /home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-PW6PGK/CheckFunctionExists.c
-        Linking C executable cmTC_59f65
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59f65.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_59f65.dir/CheckFunctionExists.c.o -o cmTC_59f65  -lICE 
-        make[1]: Leaving directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-PW6PGK'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1d6fe/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_1d6fe.dir/build.make CMakeFiles/cmTC_1d6fe.dir/build
+        make[1]: Entering directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-uKmtte'
+        Building C object CMakeFiles/cmTC_1d6fe.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_1d6fe.dir/CheckFunctionExists.c.o -c /home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-uKmtte/CheckFunctionExists.c
+        Linking C executable cmTC_1d6fe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d6fe.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_1d6fe.dir/CheckFunctionExists.c.o -o cmTC_1d6fe  -lICE 
+        make[1]: Leaving directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-uKmtte'
         
       exitCode: 0
   -
@@ -1083,8 +1083,8 @@ events:
       - "/usr/share/pcl-1.13/PCLConfig.cmake:546 (find_external_library)"
       - "CMakeLists.txt:5 (find_package)"
     directories:
-      source: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeTmp"
-      binary: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeTmp"
+      source: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeTmp"
+      binary: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1094,17 +1094,17 @@ events:
       variable: "OpenMP_SPECTEST_C_"
       cached: true
       stdout: |
-        Change Dir: '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeTmp'
+        Change Dir: '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_78bcc/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_78bcc.dir/build.make CMakeFiles/cmTC_78bcc.dir/build
-        make[1]: Entering directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeTmp'
-        Building C object CMakeFiles/cmTC_78bcc.dir/OpenMPCheckVersion.c.o
-        /usr/bin/cc   -fopenmp -o CMakeFiles/cmTC_78bcc.dir/OpenMPCheckVersion.c.o -c /home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
-        Linking C executable cmTC_78bcc
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78bcc.dir/link.txt --verbose=1
-        /usr/bin/cc  -fopenmp CMakeFiles/cmTC_78bcc.dir/OpenMPCheckVersion.c.o -o cmTC_78bcc 
-        make[1]: Leaving directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeTmp'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c4ec8/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_c4ec8.dir/build.make CMakeFiles/cmTC_c4ec8.dir/build
+        make[1]: Entering directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_c4ec8.dir/OpenMPCheckVersion.c.o
+        /usr/bin/cc   -fopenmp -o CMakeFiles/cmTC_c4ec8.dir/OpenMPCheckVersion.c.o -c /home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+        Linking C executable cmTC_c4ec8
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4ec8.dir/link.txt --verbose=1
+        /usr/bin/cc  -fopenmp CMakeFiles/cmTC_c4ec8.dir/OpenMPCheckVersion.c.o -o cmTC_c4ec8 
+        make[1]: Leaving directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeTmp'
         
       exitCode: 0
   -
@@ -1121,8 +1121,8 @@ events:
       - "CMakeLists.txt:5 (find_package)"
     description: "The MPI test test_mpi for C in mode normal"
     directories:
-      source: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-iQIsUT"
-      binary: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-iQIsUT"
+      source: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-poAFDt"
+      binary: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-poAFDt"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1132,17 +1132,17 @@ events:
       variable: "MPI_RESULT_C_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-iQIsUT'
+        Change Dir: '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-poAFDt'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_301b2/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_301b2.dir/build.make CMakeFiles/cmTC_301b2.dir/build
-        make[1]: Entering directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-iQIsUT'
-        Building C object CMakeFiles/cmTC_301b2.dir/test_mpi.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_301b2.dir/test_mpi.c.o -c /home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-iQIsUT/test_mpi.c
-        Linking C executable cmTC_301b2
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_301b2.dir/link.txt --verbose=1
-        /usr/bin/cc -Wl,-rpath -Wl,/usr/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_301b2.dir/test_mpi.c.o -o cmTC_301b2  /usr/lib/libmpi.so 
-        make[1]: Leaving directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-iQIsUT'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d384b/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_d384b.dir/build.make CMakeFiles/cmTC_d384b.dir/build
+        make[1]: Entering directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-poAFDt'
+        Building C object CMakeFiles/cmTC_d384b.dir/test_mpi.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_d384b.dir/test_mpi.c.o -c /home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-poAFDt/test_mpi.c
+        Linking C executable cmTC_d384b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d384b.dir/link.txt --verbose=1
+        /usr/bin/cc -Wl,-rpath -Wl,/usr/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_d384b.dir/test_mpi.c.o -o cmTC_d384b  /usr/lib/libmpi.so 
+        make[1]: Leaving directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-poAFDt'
         
       exitCode: 0
   -
@@ -1159,8 +1159,8 @@ events:
       - "CMakeLists.txt:5 (find_package)"
     description: "The MPI test test_mpi for C in mode normal"
     directories:
-      source: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-Mtsn47"
-      binary: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-Mtsn47"
+      source: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-6MGPyF"
+      binary: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-6MGPyF"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1170,17 +1170,17 @@ events:
       variable: "MPI_RESULT_C_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-Mtsn47'
+        Change Dir: '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-6MGPyF'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ed184/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_ed184.dir/build.make CMakeFiles/cmTC_ed184.dir/build
-        make[1]: Entering directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-Mtsn47'
-        Building C object CMakeFiles/cmTC_ed184.dir/test_mpi.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_ed184.dir/test_mpi.c.o -c /home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-Mtsn47/test_mpi.c
-        Linking C executable cmTC_ed184
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed184.dir/link.txt --verbose=1
-        /usr/bin/cc -Wl,-rpath -Wl,/usr/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_ed184.dir/test_mpi.c.o -o cmTC_ed184  /usr/lib/libmpi.so 
-        make[1]: Leaving directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-Mtsn47'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bf8ff/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_bf8ff.dir/build.make CMakeFiles/cmTC_bf8ff.dir/build
+        make[1]: Entering directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-6MGPyF'
+        Building C object CMakeFiles/cmTC_bf8ff.dir/test_mpi.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_bf8ff.dir/test_mpi.c.o -c /home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-6MGPyF/test_mpi.c
+        Linking C executable cmTC_bf8ff
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf8ff.dir/link.txt --verbose=1
+        /usr/bin/cc -Wl,-rpath -Wl,/usr/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_bf8ff.dir/test_mpi.c.o -o cmTC_bf8ff  /usr/lib/libmpi.so 
+        make[1]: Leaving directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-6MGPyF'
         
       exitCode: 0
   -
@@ -1197,8 +1197,8 @@ events:
       - "CMakeLists.txt:5 (find_package)"
     description: "The MPI test test_mpi for C in mode normal"
     directories:
-      source: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-vGOgWz"
-      binary: "/home/zjj/Downloads/\u4ee3\u7801/\u4ee3\u7801/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-vGOgWz"
+      source: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-5cJ8II"
+      binary: "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-5cJ8II"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1208,17 +1208,17 @@ events:
       variable: "MPI_RESULT_C_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-vGOgWz'
+        Change Dir: '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-5cJ8II'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_10f62/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_10f62.dir/build.make CMakeFiles/cmTC_10f62.dir/build
-        make[1]: Entering directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-vGOgWz'
-        Building C object CMakeFiles/cmTC_10f62.dir/test_mpi.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_10f62.dir/test_mpi.c.o -c /home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-vGOgWz/test_mpi.c
-        Linking C executable cmTC_10f62
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10f62.dir/link.txt --verbose=1
-        /usr/bin/cc -Wl,-rpath -Wl,/usr/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_10f62.dir/test_mpi.c.o -o cmTC_10f62  /usr/lib/libmpi.so 
-        make[1]: Leaving directory '/home/zjj/Downloads/代码/代码/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-vGOgWz'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_184ab/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_184ab.dir/build.make CMakeFiles/cmTC_184ab.dir/build
+        make[1]: Entering directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-5cJ8II'
+        Building C object CMakeFiles/cmTC_184ab.dir/test_mpi.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_184ab.dir/test_mpi.c.o -c /home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-5cJ8II/test_mpi.c
+        Linking C executable cmTC_184ab
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_184ab.dir/link.txt --verbose=1
+        /usr/bin/cc -Wl,-rpath -Wl,/usr/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_184ab.dir/test_mpi.c.o -o cmTC_184ab  /usr/lib/libmpi.so 
+        make[1]: Leaving directory '/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/CMakeFiles/CMakeScratch/TryCompile-5cJ8II'
         
       exitCode: 0
 ...

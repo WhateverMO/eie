@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/zjj/Downloads/代码/代码/opencv/canny.cpp" "CMakeFiles/canny.dir/canny.cpp.o" "gcc" "CMakeFiles/canny.dir/canny.cpp.o.d"
+  "/home/zjj/Documents/workspace/eie/CPP_compile_test/opencv/canny.cpp" "CMakeFiles/canny.dir/canny.cpp.o" "gcc" "CMakeFiles/canny.dir/canny.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

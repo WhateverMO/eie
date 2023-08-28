@@ -1,4 +1,4 @@
-# Install script for directory: /home/zjj/Downloads/代码/代码/cloud_viewer
+# Install script for directory: /home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/zjj/Downloads/代码/代码/cloud_viewer/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/zjj/Documents/workspace/eie/CPP_compile_test/cloud_viewer/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

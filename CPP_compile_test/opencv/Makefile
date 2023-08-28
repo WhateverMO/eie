@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zjj/Downloads/代码/代码/opencv
+CMAKE_SOURCE_DIR = /home/zjj/Documents/workspace/eie/CPP_compile_test/opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zjj/Downloads/代码/代码/opencv
+CMAKE_BINARY_DIR = /home/zjj/Documents/workspace/eie/CPP_compile_test/opencv
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zjj/Downloads/代码/代码/opencv/CMakeFiles /home/zjj/Downloads/代码/代码/opencv//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zjj/Documents/workspace/eie/CPP_compile_test/opencv/CMakeFiles /home/zjj/Documents/workspace/eie/CPP_compile_test/opencv//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zjj/Downloads/代码/代码/opencv/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zjj/Documents/workspace/eie/CPP_compile_test/opencv/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
