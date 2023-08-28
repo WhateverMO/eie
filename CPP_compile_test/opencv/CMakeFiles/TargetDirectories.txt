@@ -1,0 +1,3 @@
+/home/zjj/Downloads/代码/代码/opencv/CMakeFiles/canny.dir
+/home/zjj/Downloads/代码/代码/opencv/CMakeFiles/edit_cache.dir
+/home/zjj/Downloads/代码/代码/opencv/CMakeFiles/rebuild_cache.dir
