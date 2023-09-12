@@ -18,6 +18,7 @@ CMakeFiles/eie_2_soft.dir/distribute.cpp.o: /home/zjj/Documents/eie/soft2/distri
   /usr/include/c++/13.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/13.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/13.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/13.2.1/bits/erase_if.h \
   /usr/include/c++/13.2.1/bits/exception.h \
   /usr/include/c++/13.2.1/bits/exception_defines.h \
   /usr/include/c++/13.2.1/bits/exception_ptr.h \
@@ -38,6 +39,7 @@ CMakeFiles/eie_2_soft.dir/distribute.cpp.o: /home/zjj/Documents/eie/soft2/distri
   /usr/include/c++/13.2.1/bits/move.h \
   /usr/include/c++/13.2.1/bits/nested_exception.h \
   /usr/include/c++/13.2.1/bits/new_allocator.h \
+  /usr/include/c++/13.2.1/bits/node_handle.h \
   /usr/include/c++/13.2.1/bits/ostream.tcc \
   /usr/include/c++/13.2.1/bits/ostream_insert.h \
   /usr/include/c++/13.2.1/bits/postypes.h \
@@ -54,7 +56,10 @@ CMakeFiles/eie_2_soft.dir/distribute.cpp.o: /home/zjj/Documents/eie/soft2/distri
   /usr/include/c++/13.2.1/bits/stl_iterator.h \
   /usr/include/c++/13.2.1/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/13.2.1/bits/stl_map.h \
+  /usr/include/c++/13.2.1/bits/stl_multimap.h \
   /usr/include/c++/13.2.1/bits/stl_pair.h \
+  /usr/include/c++/13.2.1/bits/stl_tree.h \
   /usr/include/c++/13.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/13.2.1/bits/stl_vector.h \
   /usr/include/c++/13.2.1/bits/streambuf.tcc \
@@ -76,6 +81,7 @@ CMakeFiles/eie_2_soft.dir/distribute.cpp.o: /home/zjj/Documents/eie/soft2/distri
   /usr/include/c++/13.2.1/debug/assertions.h \
   /usr/include/c++/13.2.1/debug/debug.h \
   /usr/include/c++/13.2.1/exception \
+  /usr/include/c++/13.2.1/ext/aligned_buffer.h \
   /usr/include/c++/13.2.1/ext/alloc_traits.h \
   /usr/include/c++/13.2.1/ext/atomicity.h \
   /usr/include/c++/13.2.1/ext/numeric_traits.h \
@@ -87,6 +93,7 @@ CMakeFiles/eie_2_soft.dir/distribute.cpp.o: /home/zjj/Documents/eie/soft2/distri
   /usr/include/c++/13.2.1/iosfwd \
   /usr/include/c++/13.2.1/iostream \
   /usr/include/c++/13.2.1/istream \
+  /usr/include/c++/13.2.1/map \
   /usr/include/c++/13.2.1/new \
   /usr/include/c++/13.2.1/ostream \
   /usr/include/c++/13.2.1/pstl/pstl_config.h \
@@ -490,25 +497,39 @@ CMakeFiles/eie_2_soft.dir/main.cpp.o: /home/zjj/Documents/eie/soft2/main.cpp \
 
 /usr/include/bits/select.h:
 
-/usr/include/bits/sched.h:
+/usr/include/bits/pthread_stack_min-dynamic.h:
 
-/usr/include/bits/types/clock_t.h:
+/usr/include/bits/long-double.h:
 
-/usr/include/bits/types/__fpos_t.h:
+/usr/include/bits/locale.h:
 
-/usr/include/c++/13.2.1/type_traits:
+/usr/include/bits/libc-header-start.h:
 
-/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
+/usr/include/bits/floatn.h:
+
+/usr/include/wctype.h:
+
+/usr/include/bits/timex.h:
+
+/usr/include/bits/errno.h:
 
 /usr/include/c++/13.2.1/bits/stl_pair.h:
+
+/usr/include/bits/types/FILE.h:
+
+/usr/include/c++/13.2.1/bits/locale_facets.h:
+
+/usr/include/bits/atomic_wide_counter.h:
+
+/usr/include/c++/13.2.1/bits/stl_map.h:
+
+/usr/include/c++/13.2.1/bits/functexcept.h:
 
 /usr/include/c++/13.2.1/bits/ostream.tcc:
 
 /usr/include/c++/13.2.1/bits/functional_hash.h:
 
 /usr/include/c++/13.2.1/bits/stl_bvector.h:
-
-/usr/include/c++/13.2.1/bits/stl_algobase.h:
 
 /usr/include/gnu/stubs.h:
 
@@ -520,15 +541,19 @@ CMakeFiles/eie_2_soft.dir/main.cpp.o: /home/zjj/Documents/eie/soft2/main.cpp \
 
 /usr/include/c++/13.2.1/bits/predefined_ops.h:
 
-/usr/include/c++/13.2.1/bits/streambuf.tcc:
-
-/usr/include/c++/13.2.1/bits/postypes.h:
-
 /usr/include/c++/13.2.1/bits/codecvt.h:
 
 /usr/include/c++/13.2.1/cstdlib:
 
 /usr/include/c++/13.2.1/iosfwd:
+
+/home/zjj/Documents/eie/soft2/distribute.cpp:
+
+/usr/include/c++/13.2.1/bits/stl_algobase.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/c++/13.2.1/bits/node_handle.h:
 
 /usr/include/c++/13.2.1/bits/nested_exception.h:
 
@@ -548,19 +573,25 @@ CMakeFiles/eie_2_soft.dir/main.cpp.o: /home/zjj/Documents/eie/soft2/main.cpp \
 
 /usr/include/c++/13.2.1/bits/memoryfwd.h:
 
-/usr/include/bits/types/__locale_t.h:
+/usr/include/bits/setjmp.h:
 
-/usr/include/c++/13.2.1/bits/utility.h:
+/usr/include/c++/13.2.1/bits/exception.h:
 
-/usr/include/bits/types/FILE.h:
+/usr/include/c++/13.2.1/bits/streambuf_iterator.h:
 
-/usr/include/c++/13.2.1/bits/locale_facets.h:
-
-/usr/include/bits/atomic_wide_counter.h:
+/usr/include/c++/13.2.1/bits/stl_iterator_base_funcs.h:
 
 /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/error_constants.h:
 
+/usr/include/c++/13.2.1/system_error:
+
+/usr/include/c++/13.2.1/bits/char_traits.h:
+
 /usr/include/c++/13.2.1/bits/cxxabi_init_exception.h:
+
+/usr/include/bits/floatn-common.h:
+
+/usr/include/c++/13.2.1/bits/ios_base.h:
 
 /usr/include/c++/13.2.1/bits/ostream_insert.h:
 
@@ -578,11 +609,9 @@ CMakeFiles/eie_2_soft.dir/main.cpp.o: /home/zjj/Documents/eie/soft2/main.cpp \
 
 /usr/include/c++/13.2.1/bits/allocator.h:
 
-/usr/include/bits/pthreadtypes.h:
+/usr/include/c++/13.2.1/bits/stl_multimap.h:
 
-/usr/include/c++/13.2.1/bits/string_view.tcc:
-
-/usr/include/c++/13.2.1/debug/assertions.h:
+/usr/include/c++/13.2.1/bits/stl_tree.h:
 
 /usr/include/c++/13.2.1/stdexcept:
 
@@ -605,12 +634,6 @@ CMakeFiles/eie_2_soft.dir/main.cpp.o: /home/zjj/Documents/eie/soft2/main.cpp \
 /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
 
 /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++io.h:
-
-/usr/include/c++/13.2.1/bits/functexcept.h:
-
-/usr/include/c++/13.2.1/bits/char_traits.h:
-
-/usr/include/c++/13.2.1/system_error:
 
 /usr/include/bits/typesizes.h:
 
@@ -648,8 +671,6 @@ CMakeFiles/eie_2_soft.dir/main.cpp.o: /home/zjj/Documents/eie/soft2/main.cpp \
 
 /usr/include/c++/13.2.1/ext/type_traits.h:
 
-/home/zjj/Documents/eie/soft2/distribute.cpp:
-
 /usr/include/c++/13.2.1/bits/stl_function.h:
 
 /usr/include/c++/13.2.1/bits/exception_defines.h:
@@ -670,13 +691,25 @@ CMakeFiles/eie_2_soft.dir/main.cpp.o: /home/zjj/Documents/eie/soft2/main.cpp \
 
 /usr/include/c++/13.2.1/bits/hash_bytes.h:
 
-/usr/include/bits/setjmp.h:
+/usr/include/c++/13.2.1/bits/erase_if.h:
 
-/usr/include/c++/13.2.1/bits/exception.h:
+/usr/include/c++/13.2.1/bits/postypes.h:
 
-/usr/include/c++/13.2.1/bits/streambuf_iterator.h:
+/usr/include/c++/13.2.1/bits/streambuf.tcc:
 
-/usr/include/c++/13.2.1/bits/stl_iterator_base_funcs.h:
+/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/c++/13.2.1/debug/assertions.h:
+
+/usr/include/c++/13.2.1/bits/string_view.tcc:
+
+/usr/include/bits/types/clock_t.h:
+
+/usr/include/bits/types/__fpos_t.h:
+
+/usr/include/c++/13.2.1/type_traits:
 
 /usr/include/c++/13.2.1/bits/stringfwd.h:
 
@@ -716,9 +749,9 @@ CMakeFiles/eie_2_soft.dir/main.cpp.o: /home/zjj/Documents/eie/soft2/main.cpp \
 
 /usr/include/c++/13.2.1/initializer_list:
 
-/usr/include/c++/13.2.1/ext/atomicity.h:
+/usr/include/c++/13.2.1/ext/aligned_buffer.h:
 
-/usr/include/bits/long-double.h:
+/usr/include/c++/13.2.1/ext/atomicity.h:
 
 /usr/include/c++/13.2.1/ext/numeric_traits.h:
 
@@ -731,6 +764,12 @@ CMakeFiles/eie_2_soft.dir/main.cpp.o: /home/zjj/Documents/eie/soft2/main.cpp \
 /usr/include/c++/13.2.1/typeinfo:
 
 /usr/include/c++/13.2.1/istream:
+
+/usr/include/bits/types/__locale_t.h:
+
+/usr/include/c++/13.2.1/bits/utility.h:
+
+/usr/include/c++/13.2.1/map:
 
 /usr/include/c++/13.2.1/new:
 
@@ -783,21 +822,3 @@ CMakeFiles/eie_2_soft.dir/main.cpp.o: /home/zjj/Documents/eie/soft2/main.cpp \
 /usr/include/bits/byteswap.h:
 
 /usr/include/bits/cpu-set.h:
-
-/usr/include/wctype.h:
-
-/usr/include/bits/timex.h:
-
-/usr/include/bits/errno.h:
-
-/usr/include/c++/13.2.1/bits/ios_base.h:
-
-/usr/include/bits/floatn-common.h:
-
-/usr/include/bits/floatn.h:
-
-/usr/include/bits/libc-header-start.h:
-
-/usr/include/bits/locale.h:
-
-/usr/include/bits/pthread_stack_min-dynamic.h:

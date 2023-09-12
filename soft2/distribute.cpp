@@ -5,10 +5,15 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
+#include <map>
 
 std::vector<stu> listStu;
 std::vector<smartCar> listCar;
 std::vector<std::pair<std::string,std::string>> match;
+std::map<std::string,std::string> type2name={
+    {"gm","公路轮、麦克纳姆轮"}
+};
+
 
 std::vector<smartCar> readCar(std::string path){
     std::ifstream inCar(path,std::ios::in);
@@ -61,6 +66,9 @@ void displayInfo(int i){
     std::cout<<"====================="<<std::endl;
     std::cout<<"====================="<<std::endl;
     car.print();
+    std::cout<<"====================="<<std::endl;
+    class stu stu = listStu[i];
+    stu.print();
     std::cout<<"====================="<<std::endl;
     std::cout<<"====================="<<std::endl;
 }
@@ -151,7 +159,8 @@ void tyre::load(std::ifstream &in)
 
 void tyre::print()
 {
-    std::cout<<"type:"<<this->type<<std::endl;
+
+    std::cout<<"type:"<<type2name[this->type]<<std::endl;
     std::cout<<"n:"<<this->n<<std::endl;
     std::cout<<"size:"<<this->size<<std::endl;
 }
