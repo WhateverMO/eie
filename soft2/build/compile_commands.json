@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/zjj/Documents/eie/soft2/build",
+  "command": "/usr/bin/clang++   -g -o CMakeFiles/eie_2_soft.dir/main.cpp.o -c /home/zjj/Documents/eie/soft2/main.cpp",
+  "file": "/home/zjj/Documents/eie/soft2/main.cpp",
+  "output": "CMakeFiles/eie_2_soft.dir/main.cpp.o"
+},
+{
+  "directory": "/home/zjj/Documents/eie/soft2/build",
+  "command": "/usr/bin/clang++   -g -o CMakeFiles/eie_2_soft.dir/distribute.cpp.o -c /home/zjj/Documents/eie/soft2/distribute.cpp",
+  "file": "/home/zjj/Documents/eie/soft2/distribute.cpp",
+  "output": "CMakeFiles/eie_2_soft.dir/distribute.cpp.o"
+}
+]
