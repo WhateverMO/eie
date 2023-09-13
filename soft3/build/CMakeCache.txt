@@ -149,7 +149,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=eie_2_soft
+CMAKE_PROJECT_NAME:STATIC=eie_3_soft
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/sbin/ranlib
@@ -224,6 +224,15 @@ eie_2_soft_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 eie_2_soft_SOURCE_DIR:STATIC=/home/zjj/Documents/eie/soft3
+
+//Value Computed by CMake
+eie_3_soft_BINARY_DIR:STATIC=/home/zjj/Documents/eie/soft3/build
+
+//Value Computed by CMake
+eie_3_soft_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+eie_3_soft_SOURCE_DIR:STATIC=/home/zjj/Documents/eie/soft3
 
 
 ########################

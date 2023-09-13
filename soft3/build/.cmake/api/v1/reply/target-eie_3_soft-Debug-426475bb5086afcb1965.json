@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "eie_2_soft"
+			"path" : "eie_3_soft"
 		}
 	],
 	"backtrace" : 1,
@@ -54,7 +54,7 @@
 			]
 		}
 	],
-	"id" : "eie_2_soft::@6890427a1f51a3e7e1df",
+	"id" : "eie_3_soft::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -70,8 +70,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "eie_2_soft",
-	"nameOnDisk" : "eie_2_soft",
+	"name" : "eie_3_soft",
+	"nameOnDisk" : "eie_3_soft",
 	"paths" : 
 	{
 		"build" : ".",

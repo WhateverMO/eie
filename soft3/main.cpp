@@ -15,12 +15,12 @@ int main(){
     std::vector<stu> listStu = readStu(path_stu);
     std::vector<smartCar> listCar = readCar(path_car);
     smartCar car = listCar[0];
+    car.raidarAttachChassis();
     for(auto it=state2action.begin(); it!=state2action.end(); it++){
-        car.raidarAttachChassis();
         car.raidarSetState(it->first);
         car.raidarNotify();
-        car.raidarDetachChassis();
     }
+        car.raidarDetachChassis();
     // matchAndSave(path_match);
     // smartCar car = listCar[0];
     // ofstream out("../carSave");

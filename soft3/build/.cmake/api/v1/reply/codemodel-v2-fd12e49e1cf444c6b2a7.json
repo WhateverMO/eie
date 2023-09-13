@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "eie_2_soft",
+					"name" : "eie_3_soft",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "eie_2_soft::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-eie_2_soft-Debug-ae8a920029e659f982bc.json",
-					"name" : "eie_2_soft",
+					"id" : "eie_3_soft::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eie_3_soft-Debug-426475bb5086afcb1965.json",
+					"name" : "eie_3_soft",
 					"projectIndex" : 0
 				}
 			]

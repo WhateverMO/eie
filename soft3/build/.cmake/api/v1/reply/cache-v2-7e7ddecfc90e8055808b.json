@@ -891,7 +891,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "eie_2_soft"
+			"value" : "eie_3_soft"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1227,6 +1227,42 @@
 		},
 		{
 			"name" : "eie_2_soft_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/zjj/Documents/eie/soft3"
+		},
+		{
+			"name" : "eie_3_soft_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/zjj/Documents/eie/soft3/build"
+		},
+		{
+			"name" : "eie_3_soft_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "eie_3_soft_SOURCE_DIR",
 			"properties" : 
 			[
 				{
