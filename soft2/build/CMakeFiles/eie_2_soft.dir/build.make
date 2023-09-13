@@ -73,29 +73,29 @@ CMakeFiles/eie_2_soft.dir/main.cpp.o: CMakeFiles/eie_2_soft.dir/flags.make
 CMakeFiles/eie_2_soft.dir/main.cpp.o: /home/zjj/Documents/eie/soft2/main.cpp
 CMakeFiles/eie_2_soft.dir/main.cpp.o: CMakeFiles/eie_2_soft.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zjj/Documents/eie/soft2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/eie_2_soft.dir/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eie_2_soft.dir/main.cpp.o -MF CMakeFiles/eie_2_soft.dir/main.cpp.o.d -o CMakeFiles/eie_2_soft.dir/main.cpp.o -c /home/zjj/Documents/eie/soft2/main.cpp
+	/sbin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eie_2_soft.dir/main.cpp.o -MF CMakeFiles/eie_2_soft.dir/main.cpp.o.d -o CMakeFiles/eie_2_soft.dir/main.cpp.o -c /home/zjj/Documents/eie/soft2/main.cpp
 
 CMakeFiles/eie_2_soft.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eie_2_soft.dir/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjj/Documents/eie/soft2/main.cpp > CMakeFiles/eie_2_soft.dir/main.cpp.i
+	/sbin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjj/Documents/eie/soft2/main.cpp > CMakeFiles/eie_2_soft.dir/main.cpp.i
 
 CMakeFiles/eie_2_soft.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eie_2_soft.dir/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjj/Documents/eie/soft2/main.cpp -o CMakeFiles/eie_2_soft.dir/main.cpp.s
+	/sbin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjj/Documents/eie/soft2/main.cpp -o CMakeFiles/eie_2_soft.dir/main.cpp.s
 
 CMakeFiles/eie_2_soft.dir/distribute.cpp.o: CMakeFiles/eie_2_soft.dir/flags.make
 CMakeFiles/eie_2_soft.dir/distribute.cpp.o: /home/zjj/Documents/eie/soft2/distribute.cpp
 CMakeFiles/eie_2_soft.dir/distribute.cpp.o: CMakeFiles/eie_2_soft.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zjj/Documents/eie/soft2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/eie_2_soft.dir/distribute.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eie_2_soft.dir/distribute.cpp.o -MF CMakeFiles/eie_2_soft.dir/distribute.cpp.o.d -o CMakeFiles/eie_2_soft.dir/distribute.cpp.o -c /home/zjj/Documents/eie/soft2/distribute.cpp
+	/sbin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eie_2_soft.dir/distribute.cpp.o -MF CMakeFiles/eie_2_soft.dir/distribute.cpp.o.d -o CMakeFiles/eie_2_soft.dir/distribute.cpp.o -c /home/zjj/Documents/eie/soft2/distribute.cpp
 
 CMakeFiles/eie_2_soft.dir/distribute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eie_2_soft.dir/distribute.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjj/Documents/eie/soft2/distribute.cpp > CMakeFiles/eie_2_soft.dir/distribute.cpp.i
+	/sbin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjj/Documents/eie/soft2/distribute.cpp > CMakeFiles/eie_2_soft.dir/distribute.cpp.i
 
 CMakeFiles/eie_2_soft.dir/distribute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eie_2_soft.dir/distribute.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjj/Documents/eie/soft2/distribute.cpp -o CMakeFiles/eie_2_soft.dir/distribute.cpp.s
+	/sbin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjj/Documents/eie/soft2/distribute.cpp -o CMakeFiles/eie_2_soft.dir/distribute.cpp.s
 
 # Object files for target eie_2_soft
 eie_2_soft_OBJECTS = \
