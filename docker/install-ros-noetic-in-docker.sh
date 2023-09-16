@@ -10,7 +10,7 @@ sudo apt upgrade
 read -p "Do you want to install git vim nano neovim? [y/n]" answer
 #Default answer is y
 answer=${answer:-y}
-if [ $answer == "y"]; then
+if [ $answer == "y" ]; then
 	sudo apt install -y git vim nano neovim
 fi
 read -p "Do you want to export TERM=xterm and install keyboard-configuration? [y/n]" answer
