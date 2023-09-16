@@ -27,11 +27,12 @@ echo ">>> install lsb-release wget curle from apt"
 echo ""
 echo "#######################################################################################################################"
 
-read -p "Do you want to install lsb-release? [y/n](in docker ubuntu20.04 it doesn't installed)" answer
+read -p "Do you want to install lsb-releasae software-properties-common? [y/n](in docker ubuntu20.04 it doesn't installed)" answer
 #Default answer is y
 answer=${answer:-y}
 if [ $answer == "y" ]; then
 	sudo apt install -y lsb-release wget curl
+	sudo apt install --reinstall -y software-properties-common
 fi
 
 echo ""
@@ -99,6 +100,7 @@ read -p "Do you want to install ros noetic use the install script? [y/n]" answer
 answer=${answer:-y}
 if [ $answer == "y" ]; then
 	wget -c https://raw.githubusercontent.com/qboticslabs/ros_install_noetic/master/ros_install_noetic.sh && chmod +x ./ros_install_noetic.sh && ./ros_install_noetic.sh
+	user_name=$(whoami)
 	sed -i '/source \/opt\/ros\/noetic\/setup.bash/d' /home/$user_name/.bashrc
 	echo "if [ -f /usr/bin/rosdep ]; then" >> /home/$user_name/.bashrc
 	echo "  source /opt/ros/noetic/setup.bash" >> /home/$user_name/.bashrc
