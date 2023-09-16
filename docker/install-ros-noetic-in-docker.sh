@@ -104,13 +104,7 @@ fi
 
 echo ""
 echo "#######################################################################################################################"
-echo ">>> source ~/.bashrc"
+echo "you should do this cmd:' source ~/.bashrc ' manually"
 echo ""
 echo ""please rm this script by youself manually
 echo "#######################################################################################################################"
-read -p "Do you want to exec it? [y/n]" answer
-#Default answer is y
-answer=${answer:-y}
-if [ $answer == "y" ]; then
-	source ~/.bashrc
-fi
