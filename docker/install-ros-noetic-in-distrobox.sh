@@ -21,6 +21,7 @@ echo ""
 echo "#######################################################################################################################"
 echo ">>> enter distrobox and you should copy end line to exec..."
 echo ""
+echo "please rm this script by youself manually"
 echo "#######################################################################################################################"
-distrobox enter ${name} -- echo "curl https://raw.githubusercontent.com/WhateverMO/eie/master/docker/install-ros-noetic-in-docker.sh | bash" 
+distrobox enter ${name} -- echo "wget https://raw.githubusercontent.com/WhateverMO/eie/master/docker/install-ros-noetic-in-docker.sh -O install_noetic.sh && . install_noetic.sh" 
 distrobox enter ${name} 
