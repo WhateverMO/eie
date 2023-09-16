@@ -2,16 +2,16 @@
 
 echo ""
 echo "#######################################################################################################################"
-echo ">>> update apt repo and upgrade, install git vim nano neovim and config TERM ,then install keyboard-configuration"
+echo ">>> update apt repo and upgrade, install git vim nano neovim inetutils-ping and config TERM ,then install keyboard-configuration"
 echo ""
 echo "#######################################################################################################################"
 sudo apt update
 sudo apt upgrade
-read -p "Do you want to install git vim nano neovim? [y/n]" answer
+read -p "Do you want to install git vim nano neovim inetutils-ping? [y/n]" answer
 #Default answer is y
 answer=${answer:-y}
 if [ $answer == "y" ]; then
-	sudo apt install -y git vim nano neovim
+	sudo apt install -y git vim nano neovim inetutils-ping
 fi
 read -p "Do you want to export TERM=xterm and install keyboard-configuration? [y/n]" answer
 #Default answer is y
@@ -99,12 +99,22 @@ read -p "Do you want to install ros noetic use the install script? [y/n]" answer
 answer=${answer:-y}
 if [ $answer == "y" ]; then
 	wget -c https://raw.githubusercontent.com/qboticslabs/ros_install_noetic/master/ros_install_noetic.sh && chmod +x ./ros_install_noetic.sh && ./ros_install_noetic.sh
+	sed -i '/source \/opt\/ros\/noetic\/setup.bash/d' /home/$user_name/.bashrc
+	echo "if [ -f /usr/bin/rosdep ]; then" >> /home/$user_name/.bashrc
+	echo "  source /opt/ros/noetic/setup.bash" >> /home/$user_name/.bashrc
+	echo "  export ROS_HOSTNAME=localhost" >> /home/$user_name/.bashrc
+	echo "  export ROS_MASTER_URI=http://localhost:11311" >> /home/$user_name/.bashrc
+	echo "fi" >> /home/$user_name/.bashrc
 fi
 
 
 echo ""
 echo "#######################################################################################################################"
 echo "you should do this cmd:' source ~/.bashrc ' manually"
+echo "you can exec those cmd to test it work"
+echo "roscore"
+echo "rosrun turtlesim turtlesim_node"
+echo "rosrun turtlesim turtle_teleop_key"
 echo ""
 echo ""please rm this script by youself manually
 echo "#######################################################################################################################"
