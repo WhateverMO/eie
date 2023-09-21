@@ -6,7 +6,13 @@
 #include <pcl/point_types.h>
 #include <pcl/point_cloud.h>
 
+//lab1_1
 #include <pcl/filters/passthrough.h>
+//lab1_2
+#include <pcl/filters/statistical_outlier_removal.h>
+//lab1_3
+#include <pcl/filters/random_sample.h>
+#include <pcl/filters/voxel_grid.h>
 
 #include <pcl/visualization/pcl_visualizer.h>
 #include <boost/thread/thread.hpp>
@@ -19,20 +25,57 @@ int main(){
 	string cloud_path = "../commonData/bunny.pcd";
 
 	pcl::PointCloud<pcl::PointXYZ>::Ptr cloud(new pcl::PointCloud<pcl::PointXYZ>);
-	pcl::PointCloud<pcl::PointXYZ>::Ptr cloud_filtered(new pcl::PointCloud<pcl::PointXYZ>);
 
 	pcl::io::loadPCDFile(cloud_path.c_str(), *cloud);
 	cout<<"加载点云 "<<cloud->points.size()<<"个"<<endl;
 
+	// //---------直通滤波-----------------------
+
+	pcl::PointCloud<pcl::PointXYZ>::Ptr cloud_filtered(new pcl::PointCloud<pcl::PointXYZ>);
 	pcl::PassThrough<pcl::PointXYZ> pass;
 	pass.setInputCloud(cloud);
 	pass.setFilterFieldName("z");
 	pass.setFilterLimits(0.0, 1.0);
-	// pass.setKeepOrganized(true);
+	pass.setKeepOrganized(true);
 	pass.setNegative(true);
 	pass.filter(*cloud_filtered);
 	cout<<"滤波后点云 "<<cloud_filtered->points.size()<<"个"<<endl;
 	VisualizeCloud(cloud, cloud_filtered);
+
+	//---------统计滤波-----------------------
+
+	pcl::PointCloud<pcl::PointXYZ>::Ptr cloud_OutRemove_filtered(new pcl::PointCloud<pcl::PointXYZ>);
+	pcl::StatisticalOutlierRemoval<pcl::PointXYZ> sor_OutRemove;
+	sor_OutRemove.setInputCloud(cloud);
+	sor_OutRemove.setMeanK(30);
+	sor_OutRemove.setStddevMulThresh(1.0);
+	sor_OutRemove.filter(*cloud_OutRemove_filtered);
+	cout<<"滤波后点云 "<<cloud_OutRemove_filtered->points.size()<<"个"<<endl;
+	VisualizeCloud(cloud, cloud_OutRemove_filtered);
+
+	//---------点云降采样-----------------------
+
+	//---------随机采样-----------------------
+
+	pcl::PointCloud<pcl::PointXYZ>::Ptr cloud_sub(new pcl::PointCloud<pcl::PointXYZ>);
+	pcl::RandomSample<pcl::PointXYZ> rs;
+	rs.setInputCloud(cloud);
+	rs.setSample(20000);
+	rs.setSeed(1);
+	rs.filter(*cloud_sub);
+	cout<<"滤波后点云 "<<cloud_sub->points.size()<<"个"<<endl;
+	VisualizeCloud(cloud, cloud_sub);
+
+	//---------体素栅格滤波-----------------------
+
+	pcl::PointCloud<pcl::PointXYZ>::Ptr cloud_voxel(new pcl::PointCloud<pcl::PointXYZ>);
+	pcl::VoxelGrid<pcl::PointXYZ> vox;
+	vox.setInputCloud(cloud);
+	vox.setLeafSize(0.01f, 0.01f, 0.01f);
+	vox.filter(*cloud_voxel);
+	cout<<"滤波后点云 "<<cloud_voxel->points.size()<<"个"<<endl;
+	VisualizeCloud(cloud, cloud_voxel);
+
 	return 0;
 }
 

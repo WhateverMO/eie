@@ -222,15 +222,24 @@ CMakeFiles/zhitonglvbo.dir/zhitonglvbo.cpp.o
  /usr/include/pcl-1.10/pcl/PolygonMesh.h
  /usr/include/pcl-1.10/pcl/TextureMesh.h
  /usr/include/pcl-1.10/pcl/Vertices.h
+ /usr/include/pcl-1.10/pcl/cloud_iterator.h
+ /usr/include/pcl-1.10/pcl/common/centroid.h
  /usr/include/pcl-1.10/pcl/common/colors.h
+ /usr/include/pcl-1.10/pcl/common/common.h
  /usr/include/pcl-1.10/pcl/common/concatenate.h
  /usr/include/pcl-1.10/pcl/common/copy_point.h
  /usr/include/pcl-1.10/pcl/common/eigen.h
+ /usr/include/pcl-1.10/pcl/common/impl/accumulators.hpp
+ /usr/include/pcl-1.10/pcl/common/impl/centroid.hpp
+ /usr/include/pcl-1.10/pcl/common/impl/common.hpp
  /usr/include/pcl-1.10/pcl/common/impl/copy_point.hpp
  /usr/include/pcl-1.10/pcl/common/impl/eigen.hpp
  /usr/include/pcl-1.10/pcl/common/impl/io.hpp
+ /usr/include/pcl-1.10/pcl/common/impl/projection_matrix.hpp
  /usr/include/pcl-1.10/pcl/common/io.h
  /usr/include/pcl-1.10/pcl/common/point_tests.h
+ /usr/include/pcl-1.10/pcl/common/projection_matrix.h
+ /usr/include/pcl-1.10/pcl/common/time.h
  /usr/include/pcl-1.10/pcl/console/print.h
  /usr/include/pcl-1.10/pcl/conversions.h
  /usr/include/pcl-1.10/pcl/correspondence.h
@@ -241,9 +250,17 @@ CMakeFiles/zhitonglvbo.dir/zhitonglvbo.cpp.o
  /usr/include/pcl-1.10/pcl/filters/impl/filter.hpp
  /usr/include/pcl-1.10/pcl/filters/impl/filter_indices.hpp
  /usr/include/pcl-1.10/pcl/filters/impl/passthrough.hpp
+ /usr/include/pcl-1.10/pcl/filters/impl/random_sample.hpp
+ /usr/include/pcl-1.10/pcl/filters/impl/statistical_outlier_removal.hpp
+ /usr/include/pcl-1.10/pcl/filters/impl/voxel_grid.hpp
  /usr/include/pcl-1.10/pcl/filters/passthrough.h
+ /usr/include/pcl-1.10/pcl/filters/random_sample.h
+ /usr/include/pcl-1.10/pcl/filters/statistical_outlier_removal.h
+ /usr/include/pcl-1.10/pcl/filters/voxel_grid.h
  /usr/include/pcl-1.10/pcl/for_each_type.h
  /usr/include/pcl-1.10/pcl/geometry/planar_polygon.h
+ /usr/include/pcl-1.10/pcl/impl/cloud_iterator.hpp
+ /usr/include/pcl-1.10/pcl/impl/instantiate.hpp
  /usr/include/pcl-1.10/pcl/impl/pcl_base.hpp
  /usr/include/pcl-1.10/pcl/impl/point_types.hpp
  /usr/include/pcl-1.10/pcl/io/boost.h
@@ -253,15 +270,38 @@ CMakeFiles/zhitonglvbo.dir/zhitonglvbo.cpp.o
  /usr/include/pcl-1.10/pcl/io/low_level_io.h
  /usr/include/pcl-1.10/pcl/io/lzf.h
  /usr/include/pcl-1.10/pcl/io/pcd_io.h
+ /usr/include/pcl-1.10/pcl/kdtree/impl/kdtree_flann.hpp
+ /usr/include/pcl-1.10/pcl/kdtree/kdtree.h
+ /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h
  /usr/include/pcl-1.10/pcl/make_shared.h
+ /usr/include/pcl-1.10/pcl/octree/impl/octree_base.hpp
+ /usr/include/pcl-1.10/pcl/octree/impl/octree_iterator.hpp
+ /usr/include/pcl-1.10/pcl/octree/impl/octree_pointcloud.hpp
+ /usr/include/pcl-1.10/pcl/octree/impl/octree_search.hpp
+ /usr/include/pcl-1.10/pcl/octree/octree_base.h
+ /usr/include/pcl-1.10/pcl/octree/octree_container.h
+ /usr/include/pcl-1.10/pcl/octree/octree_iterator.h
+ /usr/include/pcl-1.10/pcl/octree/octree_key.h
+ /usr/include/pcl-1.10/pcl/octree/octree_nodes.h
+ /usr/include/pcl-1.10/pcl/octree/octree_pointcloud.h
+ /usr/include/pcl-1.10/pcl/octree/octree_search.h
  /usr/include/pcl-1.10/pcl/pcl_base.h
  /usr/include/pcl-1.10/pcl/pcl_config.h
  /usr/include/pcl-1.10/pcl/pcl_exports.h
  /usr/include/pcl-1.10/pcl/pcl_macros.h
  /usr/include/pcl-1.10/pcl/point_cloud.h
+ /usr/include/pcl-1.10/pcl/point_representation.h
  /usr/include/pcl-1.10/pcl/point_traits.h
  /usr/include/pcl-1.10/pcl/point_types.h
  /usr/include/pcl-1.10/pcl/register_point_struct.h
+ /usr/include/pcl-1.10/pcl/search/impl/kdtree.hpp
+ /usr/include/pcl-1.10/pcl/search/impl/organized.hpp
+ /usr/include/pcl-1.10/pcl/search/impl/search.hpp
+ /usr/include/pcl-1.10/pcl/search/kdtree.h
+ /usr/include/pcl-1.10/pcl/search/octree.h
+ /usr/include/pcl-1.10/pcl/search/organized.h
+ /usr/include/pcl-1.10/pcl/search/pcl_search.h
+ /usr/include/pcl-1.10/pcl/search/search.h
  /usr/include/pcl-1.10/pcl/visualization/area_picking_event.h
  /usr/include/pcl-1.10/pcl/visualization/boost.h
  /usr/include/pcl-1.10/pcl/visualization/common/actor_map.h
