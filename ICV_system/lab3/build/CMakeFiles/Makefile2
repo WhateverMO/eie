@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/zjj/Documents/eie/ICV_system/lab3/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/lineRansac.dir/all
+all: CMakeFiles/Ransac.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/lineRansac.dir/clean
+clean: CMakeFiles/Ransac.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/lineRansac.dir
+# Target rules for target CMakeFiles/Ransac.dir
 
 # All Build rule for target.
-CMakeFiles/lineRansac.dir/all:
-	$(MAKE) -f CMakeFiles/lineRansac.dir/build.make CMakeFiles/lineRansac.dir/depend
-	$(MAKE) -f CMakeFiles/lineRansac.dir/build.make CMakeFiles/lineRansac.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zjj/Documents/eie/ICV_system/lab3/build/CMakeFiles --progress-num=1,2 "Built target lineRansac"
-.PHONY : CMakeFiles/lineRansac.dir/all
+CMakeFiles/Ransac.dir/all:
+	$(MAKE) -f CMakeFiles/Ransac.dir/build.make CMakeFiles/Ransac.dir/depend
+	$(MAKE) -f CMakeFiles/Ransac.dir/build.make CMakeFiles/Ransac.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zjj/Documents/eie/ICV_system/lab3/build/CMakeFiles --progress-num=1,2 "Built target Ransac"
+.PHONY : CMakeFiles/Ransac.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/lineRansac.dir/rule: cmake_check_build_system
+CMakeFiles/Ransac.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zjj/Documents/eie/ICV_system/lab3/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lineRansac.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Ransac.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zjj/Documents/eie/ICV_system/lab3/build/CMakeFiles 0
-.PHONY : CMakeFiles/lineRansac.dir/rule
+.PHONY : CMakeFiles/Ransac.dir/rule
 
 # Convenience name for target.
-lineRansac: CMakeFiles/lineRansac.dir/rule
+Ransac: CMakeFiles/Ransac.dir/rule
 
-.PHONY : lineRansac
+.PHONY : Ransac
 
 # clean rule for target.
-CMakeFiles/lineRansac.dir/clean:
-	$(MAKE) -f CMakeFiles/lineRansac.dir/build.make CMakeFiles/lineRansac.dir/clean
-.PHONY : CMakeFiles/lineRansac.dir/clean
+CMakeFiles/Ransac.dir/clean:
+	$(MAKE) -f CMakeFiles/Ransac.dir/build.make CMakeFiles/Ransac.dir/clean
+.PHONY : CMakeFiles/Ransac.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

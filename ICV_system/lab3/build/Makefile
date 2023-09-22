@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/zjj/Documents/eie/ICV_system/lab3/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named lineRansac
+# Target rules for targets named Ransac
 
 # Build rule for target.
-lineRansac: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lineRansac
-.PHONY : lineRansac
+Ransac: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Ransac
+.PHONY : Ransac
 
 # fast build rule for target.
-lineRansac/fast:
-	$(MAKE) -f CMakeFiles/lineRansac.dir/build.make CMakeFiles/lineRansac.dir/build
-.PHONY : lineRansac/fast
+Ransac/fast:
+	$(MAKE) -f CMakeFiles/Ransac.dir/build.make CMakeFiles/Ransac.dir/build
+.PHONY : Ransac/fast
 
-lineRansac.o: lineRansac.cpp.o
+Ransac.o: Ransac.cpp.o
 
-.PHONY : lineRansac.o
+.PHONY : Ransac.o
 
 # target to build an object file
-lineRansac.cpp.o:
-	$(MAKE) -f CMakeFiles/lineRansac.dir/build.make CMakeFiles/lineRansac.dir/lineRansac.cpp.o
-.PHONY : lineRansac.cpp.o
+Ransac.cpp.o:
+	$(MAKE) -f CMakeFiles/Ransac.dir/build.make CMakeFiles/Ransac.dir/Ransac.cpp.o
+.PHONY : Ransac.cpp.o
 
-lineRansac.i: lineRansac.cpp.i
+Ransac.i: Ransac.cpp.i
 
-.PHONY : lineRansac.i
+.PHONY : Ransac.i
 
 # target to preprocess a source file
-lineRansac.cpp.i:
-	$(MAKE) -f CMakeFiles/lineRansac.dir/build.make CMakeFiles/lineRansac.dir/lineRansac.cpp.i
-.PHONY : lineRansac.cpp.i
+Ransac.cpp.i:
+	$(MAKE) -f CMakeFiles/Ransac.dir/build.make CMakeFiles/Ransac.dir/Ransac.cpp.i
+.PHONY : Ransac.cpp.i
 
-lineRansac.s: lineRansac.cpp.s
+Ransac.s: Ransac.cpp.s
 
-.PHONY : lineRansac.s
+.PHONY : Ransac.s
 
 # target to generate assembly for a file
-lineRansac.cpp.s:
-	$(MAKE) -f CMakeFiles/lineRansac.dir/build.make CMakeFiles/lineRansac.dir/lineRansac.cpp.s
-.PHONY : lineRansac.cpp.s
+Ransac.cpp.s:
+	$(MAKE) -f CMakeFiles/Ransac.dir/build.make CMakeFiles/Ransac.dir/Ransac.cpp.s
+.PHONY : Ransac.cpp.s
 
 # Help Target
 help:
@@ -156,12 +156,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... lineRansac"
-	@echo "... lineRansac.o"
-	@echo "... lineRansac.i"
-	@echo "... lineRansac.s"
+	@echo "... edit_cache"
+	@echo "... Ransac"
+	@echo "... Ransac.o"
+	@echo "... Ransac.i"
+	@echo "... Ransac.s"
 .PHONY : help
 
 

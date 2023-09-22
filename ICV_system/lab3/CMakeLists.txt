@@ -10,6 +10,6 @@ link_directories(${PCL_LIBRARY_DIRS})
 add_definitions(${PCL_DEFINITIONS})
 
 
-add_executable(lineRansac lineRansac.cpp)
-target_link_libraries(lineRansac 
+add_executable(Ransac Ransac.cpp)
+target_link_libraries(Ransac 
 			${PCL_LIBRARIES} ${Boost_LIBRARIES})
