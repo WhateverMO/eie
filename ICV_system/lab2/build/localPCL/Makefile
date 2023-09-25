@@ -68,6 +68,18 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -90,17 +102,16 @@ list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
 
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -123,17 +134,6 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -168,186 +168,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-localPCL/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-.PHONY : localPCL/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_lisp: localPCL/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-.PHONY : roscpp_generate_messages_lisp
-
-# fast build rule for target.
-roscpp_generate_messages_lisp/fast:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make localPCL/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-.PHONY : roscpp_generate_messages_lisp/fast
-
-# Convenience name for target.
-localPCL/CMakeFiles/topic_tools_generate_messages_cpp.dir/rule:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/topic_tools_generate_messages_cpp.dir/rule
-.PHONY : localPCL/CMakeFiles/topic_tools_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-topic_tools_generate_messages_cpp: localPCL/CMakeFiles/topic_tools_generate_messages_cpp.dir/rule
-
-.PHONY : topic_tools_generate_messages_cpp
-
-# fast build rule for target.
-topic_tools_generate_messages_cpp/fast:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/topic_tools_generate_messages_cpp.dir/build.make localPCL/CMakeFiles/topic_tools_generate_messages_cpp.dir/build
-.PHONY : topic_tools_generate_messages_cpp/fast
-
-# Convenience name for target.
-localPCL/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : localPCL/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: localPCL/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_lisp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make localPCL/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-localPCL/CMakeFiles/publisher.dir/rule:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/publisher.dir/rule
-.PHONY : localPCL/CMakeFiles/publisher.dir/rule
-
-# Convenience name for target.
-publisher: localPCL/CMakeFiles/publisher.dir/rule
-
-.PHONY : publisher
-
-# fast build rule for target.
-publisher/fast:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/publisher.dir/build.make localPCL/CMakeFiles/publisher.dir/build
-.PHONY : publisher/fast
-
-# Convenience name for target.
-localPCL/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-.PHONY : localPCL/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_eus: localPCL/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_eus
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_eus/fast:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make localPCL/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
-.PHONY : rosgraph_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-localPCL/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
-.PHONY : localPCL/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_nodejs: localPCL/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
-
-.PHONY : roscpp_generate_messages_nodejs
-
-# fast build rule for target.
-roscpp_generate_messages_nodejs/fast:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make localPCL/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
-.PHONY : roscpp_generate_messages_nodejs/fast
-
-# Convenience name for target.
-localPCL/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-.PHONY : localPCL/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_eus: localPCL/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-
-.PHONY : std_msgs_generate_messages_eus
-
-# fast build rule for target.
-std_msgs_generate_messages_eus/fast:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make localPCL/CMakeFiles/std_msgs_generate_messages_eus.dir/build
-.PHONY : std_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-localPCL/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : localPCL/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_lisp: localPCL/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : std_msgs_generate_messages_lisp
-
-# fast build rule for target.
-std_msgs_generate_messages_lisp/fast:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make localPCL/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-.PHONY : std_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-localPCL/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-.PHONY : localPCL/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_nodejs: localPCL/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_nodejs/fast:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make localPCL/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
-.PHONY : rosgraph_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-localPCL/CMakeFiles/topic_tools_generate_messages_lisp.dir/rule:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/topic_tools_generate_messages_lisp.dir/rule
-.PHONY : localPCL/CMakeFiles/topic_tools_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-topic_tools_generate_messages_lisp: localPCL/CMakeFiles/topic_tools_generate_messages_lisp.dir/rule
-
-.PHONY : topic_tools_generate_messages_lisp
-
-# fast build rule for target.
-topic_tools_generate_messages_lisp/fast:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/topic_tools_generate_messages_lisp.dir/build.make localPCL/CMakeFiles/topic_tools_generate_messages_lisp.dir/build
-.PHONY : topic_tools_generate_messages_lisp/fast
-
-# Convenience name for target.
-localPCL/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : localPCL/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_cpp: localPCL/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-.PHONY : roscpp_generate_messages_cpp
-
-# fast build rule for target.
-roscpp_generate_messages_cpp/fast:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make localPCL/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-.PHONY : roscpp_generate_messages_cpp/fast
-
-# Convenience name for target.
-localPCL/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : localPCL/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_cpp: localPCL/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : std_msgs_generate_messages_cpp
-
-# fast build rule for target.
-std_msgs_generate_messages_cpp/fast:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make localPCL/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-.PHONY : std_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
 localPCL/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule:
 	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
 .PHONY : localPCL/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
@@ -363,36 +183,6 @@ std_srvs_generate_messages_cpp/fast:
 .PHONY : std_srvs_generate_messages_cpp/fast
 
 # Convenience name for target.
-localPCL/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-.PHONY : localPCL/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_nodejs: localPCL/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : std_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-std_msgs_generate_messages_nodejs/fast:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make localPCL/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-.PHONY : std_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-localPCL/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : localPCL/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_py: localPCL/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-.PHONY : std_msgs_generate_messages_py
-
-# fast build rule for target.
-std_msgs_generate_messages_py/fast:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/std_msgs_generate_messages_py.dir/build.make localPCL/CMakeFiles/std_msgs_generate_messages_py.dir/build
-.PHONY : std_msgs_generate_messages_py/fast
-
-# Convenience name for target.
 localPCL/CMakeFiles/std_srvs_generate_messages_eus.dir/rule:
 	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
 .PHONY : localPCL/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
@@ -406,6 +196,21 @@ std_srvs_generate_messages_eus: localPCL/CMakeFiles/std_srvs_generate_messages_e
 std_srvs_generate_messages_eus/fast:
 	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make localPCL/CMakeFiles/std_srvs_generate_messages_eus.dir/build
 .PHONY : std_srvs_generate_messages_eus/fast
+
+# Convenience name for target.
+localPCL/CMakeFiles/topic_tools_generate_messages_nodejs.dir/rule:
+	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/topic_tools_generate_messages_nodejs.dir/rule
+.PHONY : localPCL/CMakeFiles/topic_tools_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+topic_tools_generate_messages_nodejs: localPCL/CMakeFiles/topic_tools_generate_messages_nodejs.dir/rule
+
+.PHONY : topic_tools_generate_messages_nodejs
+
+# fast build rule for target.
+topic_tools_generate_messages_nodejs/fast:
+	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/topic_tools_generate_messages_nodejs.dir/build.make localPCL/CMakeFiles/topic_tools_generate_messages_nodejs.dir/build
+.PHONY : topic_tools_generate_messages_nodejs/fast
 
 # Convenience name for target.
 localPCL/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule:
@@ -438,64 +243,34 @@ std_srvs_generate_messages_nodejs/fast:
 .PHONY : std_srvs_generate_messages_nodejs/fast
 
 # Convenience name for target.
-localPCL/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-.PHONY : localPCL/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+localPCL/CMakeFiles/std_srvs_generate_messages_py.dir/rule:
+	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+.PHONY : localPCL/CMakeFiles/std_srvs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_eus: localPCL/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+std_srvs_generate_messages_py: localPCL/CMakeFiles/std_srvs_generate_messages_py.dir/rule
 
-.PHONY : roscpp_generate_messages_eus
+.PHONY : std_srvs_generate_messages_py
 
 # fast build rule for target.
-roscpp_generate_messages_eus/fast:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/roscpp_generate_messages_eus.dir/build.make localPCL/CMakeFiles/roscpp_generate_messages_eus.dir/build
-.PHONY : roscpp_generate_messages_eus/fast
+std_srvs_generate_messages_py/fast:
+	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/std_srvs_generate_messages_py.dir/build.make localPCL/CMakeFiles/std_srvs_generate_messages_py.dir/build
+.PHONY : std_srvs_generate_messages_py/fast
 
 # Convenience name for target.
-localPCL/CMakeFiles/topic_tools_generate_messages_nodejs.dir/rule:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/topic_tools_generate_messages_nodejs.dir/rule
-.PHONY : localPCL/CMakeFiles/topic_tools_generate_messages_nodejs.dir/rule
+localPCL/CMakeFiles/topic_tools_generate_messages_cpp.dir/rule:
+	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/topic_tools_generate_messages_cpp.dir/rule
+.PHONY : localPCL/CMakeFiles/topic_tools_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-topic_tools_generate_messages_nodejs: localPCL/CMakeFiles/topic_tools_generate_messages_nodejs.dir/rule
+topic_tools_generate_messages_cpp: localPCL/CMakeFiles/topic_tools_generate_messages_cpp.dir/rule
 
-.PHONY : topic_tools_generate_messages_nodejs
+.PHONY : topic_tools_generate_messages_cpp
 
 # fast build rule for target.
-topic_tools_generate_messages_nodejs/fast:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/topic_tools_generate_messages_nodejs.dir/build.make localPCL/CMakeFiles/topic_tools_generate_messages_nodejs.dir/build
-.PHONY : topic_tools_generate_messages_nodejs/fast
-
-# Convenience name for target.
-localPCL/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/roscpp_generate_messages_py.dir/rule
-.PHONY : localPCL/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_py: localPCL/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-.PHONY : roscpp_generate_messages_py
-
-# fast build rule for target.
-roscpp_generate_messages_py/fast:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/roscpp_generate_messages_py.dir/build.make localPCL/CMakeFiles/roscpp_generate_messages_py.dir/build
-.PHONY : roscpp_generate_messages_py/fast
-
-# Convenience name for target.
-localPCL/CMakeFiles/topic_tools_generate_messages_py.dir/rule:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/topic_tools_generate_messages_py.dir/rule
-.PHONY : localPCL/CMakeFiles/topic_tools_generate_messages_py.dir/rule
-
-# Convenience name for target.
-topic_tools_generate_messages_py: localPCL/CMakeFiles/topic_tools_generate_messages_py.dir/rule
-
-.PHONY : topic_tools_generate_messages_py
-
-# fast build rule for target.
-topic_tools_generate_messages_py/fast:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/topic_tools_generate_messages_py.dir/build.make localPCL/CMakeFiles/topic_tools_generate_messages_py.dir/build
-.PHONY : topic_tools_generate_messages_py/fast
+topic_tools_generate_messages_cpp/fast:
+	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/topic_tools_generate_messages_cpp.dir/build.make localPCL/CMakeFiles/topic_tools_generate_messages_cpp.dir/build
+.PHONY : topic_tools_generate_messages_cpp/fast
 
 # Convenience name for target.
 localPCL/CMakeFiles/topic_tools_generate_messages_eus.dir/rule:
@@ -513,64 +288,64 @@ topic_tools_generate_messages_eus/fast:
 .PHONY : topic_tools_generate_messages_eus/fast
 
 # Convenience name for target.
-localPCL/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-.PHONY : localPCL/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+localPCL/CMakeFiles/topic_tools_generate_messages_lisp.dir/rule:
+	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/topic_tools_generate_messages_lisp.dir/rule
+.PHONY : localPCL/CMakeFiles/topic_tools_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_py: localPCL/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+topic_tools_generate_messages_lisp: localPCL/CMakeFiles/topic_tools_generate_messages_lisp.dir/rule
 
-.PHONY : rosgraph_msgs_generate_messages_py
+.PHONY : topic_tools_generate_messages_lisp
 
 # fast build rule for target.
-rosgraph_msgs_generate_messages_py/fast:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make localPCL/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-.PHONY : rosgraph_msgs_generate_messages_py/fast
+topic_tools_generate_messages_lisp/fast:
+	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/topic_tools_generate_messages_lisp.dir/build.make localPCL/CMakeFiles/topic_tools_generate_messages_lisp.dir/build
+.PHONY : topic_tools_generate_messages_lisp/fast
 
 # Convenience name for target.
-localPCL/CMakeFiles/passthrough.dir/rule:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/passthrough.dir/rule
-.PHONY : localPCL/CMakeFiles/passthrough.dir/rule
+localPCL/CMakeFiles/subscriber.dir/rule:
+	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/subscriber.dir/rule
+.PHONY : localPCL/CMakeFiles/subscriber.dir/rule
 
 # Convenience name for target.
-passthrough: localPCL/CMakeFiles/passthrough.dir/rule
+subscriber: localPCL/CMakeFiles/subscriber.dir/rule
 
-.PHONY : passthrough
+.PHONY : subscriber
 
 # fast build rule for target.
-passthrough/fast:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/passthrough.dir/build.make localPCL/CMakeFiles/passthrough.dir/build
-.PHONY : passthrough/fast
+subscriber/fast:
+	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/subscriber.dir/build.make localPCL/CMakeFiles/subscriber.dir/build
+.PHONY : subscriber/fast
 
 # Convenience name for target.
-localPCL/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : localPCL/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+localPCL/CMakeFiles/topic_tools_generate_messages_py.dir/rule:
+	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/topic_tools_generate_messages_py.dir/rule
+.PHONY : localPCL/CMakeFiles/topic_tools_generate_messages_py.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: localPCL/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+topic_tools_generate_messages_py: localPCL/CMakeFiles/topic_tools_generate_messages_py.dir/rule
 
-.PHONY : rosgraph_msgs_generate_messages_cpp
+.PHONY : topic_tools_generate_messages_py
 
 # fast build rule for target.
-rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make localPCL/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_cpp/fast
+topic_tools_generate_messages_py/fast:
+	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/topic_tools_generate_messages_py.dir/build.make localPCL/CMakeFiles/topic_tools_generate_messages_py.dir/build
+.PHONY : topic_tools_generate_messages_py/fast
 
 # Convenience name for target.
-localPCL/CMakeFiles/std_srvs_generate_messages_py.dir/rule:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/std_srvs_generate_messages_py.dir/rule
-.PHONY : localPCL/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+localPCL/CMakeFiles/publisher.dir/rule:
+	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f CMakeFiles/Makefile2 localPCL/CMakeFiles/publisher.dir/rule
+.PHONY : localPCL/CMakeFiles/publisher.dir/rule
 
 # Convenience name for target.
-std_srvs_generate_messages_py: localPCL/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+publisher: localPCL/CMakeFiles/publisher.dir/rule
 
-.PHONY : std_srvs_generate_messages_py
+.PHONY : publisher
 
 # fast build rule for target.
-std_srvs_generate_messages_py/fast:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/std_srvs_generate_messages_py.dir/build.make localPCL/CMakeFiles/std_srvs_generate_messages_py.dir/build
-.PHONY : std_srvs_generate_messages_py/fast
+publisher/fast:
+	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/publisher.dir/build.make localPCL/CMakeFiles/publisher.dir/build
+.PHONY : publisher/fast
 
 src/passthrough.o: src/passthrough.cpp.o
 
@@ -578,7 +353,7 @@ src/passthrough.o: src/passthrough.cpp.o
 
 # target to build an object file
 src/passthrough.cpp.o:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/passthrough.dir/build.make localPCL/CMakeFiles/passthrough.dir/src/passthrough.cpp.o
+	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/subscriber.dir/build.make localPCL/CMakeFiles/subscriber.dir/src/passthrough.cpp.o
 .PHONY : src/passthrough.cpp.o
 
 src/passthrough.i: src/passthrough.cpp.i
@@ -587,7 +362,7 @@ src/passthrough.i: src/passthrough.cpp.i
 
 # target to preprocess a source file
 src/passthrough.cpp.i:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/passthrough.dir/build.make localPCL/CMakeFiles/passthrough.dir/src/passthrough.cpp.i
+	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/subscriber.dir/build.make localPCL/CMakeFiles/subscriber.dir/src/passthrough.cpp.i
 .PHONY : src/passthrough.cpp.i
 
 src/passthrough.s: src/passthrough.cpp.s
@@ -596,7 +371,7 @@ src/passthrough.s: src/passthrough.cpp.s
 
 # target to generate assembly for a file
 src/passthrough.cpp.s:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/passthrough.dir/build.make localPCL/CMakeFiles/passthrough.dir/src/passthrough.cpp.s
+	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/subscriber.dir/build.make localPCL/CMakeFiles/subscriber.dir/src/passthrough.cpp.s
 .PHONY : src/passthrough.cpp.s
 
 src/publisher.o: src/publisher.cpp.o
@@ -633,39 +408,24 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
+	@echo "... install/local"
 	@echo "... install"
 	@echo "... list_install_components"
-	@echo "... roscpp_generate_messages_lisp"
-	@echo "... topic_tools_generate_messages_cpp"
-	@echo "... rosgraph_msgs_generate_messages_lisp"
-	@echo "... publisher"
-	@echo "... install/local"
-	@echo "... rosgraph_msgs_generate_messages_eus"
-	@echo "... roscpp_generate_messages_nodejs"
-	@echo "... std_msgs_generate_messages_eus"
-	@echo "... std_msgs_generate_messages_lisp"
-	@echo "... rosgraph_msgs_generate_messages_nodejs"
-	@echo "... topic_tools_generate_messages_lisp"
-	@echo "... roscpp_generate_messages_cpp"
-	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... std_srvs_generate_messages_cpp"
-	@echo "... std_msgs_generate_messages_nodejs"
-	@echo "... std_msgs_generate_messages_py"
 	@echo "... std_srvs_generate_messages_eus"
+	@echo "... topic_tools_generate_messages_nodejs"
 	@echo "... std_srvs_generate_messages_lisp"
 	@echo "... std_srvs_generate_messages_nodejs"
-	@echo "... rebuild_cache"
-	@echo "... roscpp_generate_messages_eus"
-	@echo "... topic_tools_generate_messages_nodejs"
-	@echo "... roscpp_generate_messages_py"
-	@echo "... topic_tools_generate_messages_py"
-	@echo "... topic_tools_generate_messages_eus"
-	@echo "... edit_cache"
-	@echo "... rosgraph_msgs_generate_messages_py"
-	@echo "... passthrough"
-	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... std_srvs_generate_messages_py"
+	@echo "... topic_tools_generate_messages_cpp"
+	@echo "... topic_tools_generate_messages_eus"
 	@echo "... test"
+	@echo "... topic_tools_generate_messages_lisp"
+	@echo "... subscriber"
+	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... topic_tools_generate_messages_py"
+	@echo "... publisher"
 	@echo "... src/passthrough.o"
 	@echo "... src/passthrough.i"
 	@echo "... src/passthrough.s"

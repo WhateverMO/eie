@@ -139,6 +139,16 @@ add_definitions(${PCL_DEFINITIONS})
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/passthrough.cpp src/publisher.cpp)
 
+add_executable(subscriber src/passthrough.cpp) 
+target_link_libraries(subscriber   
+			${catkin_LIBRARIES}   
+			${PCL_LIBRARIES} )
+
+add_executable(publisher src/publisher.cpp) 
+target_link_libraries(publisher   
+			${catkin_LIBRARIES}   
+			${PCL_LIBRARIES} )
+      
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
@@ -208,13 +218,3 @@ add_definitions(${PCL_DEFINITIONS})
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
-
-add_executable(passthrough src/passthrough.cpp) 
-target_link_libraries(passthrough   
-			${catkin_LIBRARIES}   
-			${PCL_LIBRARIES} )
-
-add_executable(publisher src/publisher.cpp) 
-target_link_libraries(publisher   
-			${catkin_LIBRARIES}   
-			${PCL_LIBRARIES} )

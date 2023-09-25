@@ -5,5 +5,6 @@
     "python.analysis.extraPaths": [
         "/opt/ros/noetic/lib/python3/dist-packages"
     ],
-    "cmake.sourceDirectory": "/home/zjj/Documents/eie/ICV_system/lab2/src/localPCL"
+    "cmake.sourceDirectory": "/home/zjj/Documents/eie/ICV_system/lab2/src/localPCL",
+    "ros.distro": "noetic"
 }
