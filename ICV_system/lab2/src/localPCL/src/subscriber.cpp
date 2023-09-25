@@ -42,8 +42,8 @@ void lasercallback(sensor_msgs::PointCloud2ConstPtr lasercloudmsg)
 
     cloud_filtered_msg.header.stamp = ros::Time::now();
 
-    cloud_filtered_msg.header.frame_id = "baselink";
-    // cloud_filtered_msg.header.frame_id = "map";
+    // cloud_filtered_msg.header.frame_id = "baselink";
+    cloud_filtered_msg.header.frame_id = "map";
     laser_pub.publish(cloud_filtered_msg);
 }
 
@@ -54,7 +54,7 @@ int main(int argc, char *argv[])
 
     ros::NodeHandle n;
 
-    ros::Subscriber laser_sub = n.subscribe<sensor_msgs::PointCloud2>("rslidar_points", 10, lasercallback);
+    ros::Subscriber laser_sub = n.subscribe<sensor_msgs::PointCloud2>("lidar_data", 10, lasercallback);
 
     laser_pub = n.advertise<sensor_msgs::PointCloud2>("velodyne_points",10);
 

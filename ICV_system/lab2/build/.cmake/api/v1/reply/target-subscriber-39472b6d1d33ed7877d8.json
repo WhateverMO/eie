@@ -936,7 +936,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "localPCL/src/passthrough.cpp",
+			"path" : "localPCL/src/subscriber.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

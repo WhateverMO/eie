@@ -139,7 +139,7 @@ add_definitions(${PCL_DEFINITIONS})
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/passthrough.cpp src/publisher.cpp)
 
-add_executable(subscriber src/passthrough.cpp) 
+add_executable(subscriber src/subscriber.cpp) 
 target_link_libraries(subscriber   
 			${catkin_LIBRARIES}   
 			${PCL_LIBRARIES} )

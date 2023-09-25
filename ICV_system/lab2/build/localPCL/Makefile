@@ -347,33 +347,6 @@ publisher/fast:
 	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/publisher.dir/build.make localPCL/CMakeFiles/publisher.dir/build
 .PHONY : publisher/fast
 
-src/passthrough.o: src/passthrough.cpp.o
-
-.PHONY : src/passthrough.o
-
-# target to build an object file
-src/passthrough.cpp.o:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/subscriber.dir/build.make localPCL/CMakeFiles/subscriber.dir/src/passthrough.cpp.o
-.PHONY : src/passthrough.cpp.o
-
-src/passthrough.i: src/passthrough.cpp.i
-
-.PHONY : src/passthrough.i
-
-# target to preprocess a source file
-src/passthrough.cpp.i:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/subscriber.dir/build.make localPCL/CMakeFiles/subscriber.dir/src/passthrough.cpp.i
-.PHONY : src/passthrough.cpp.i
-
-src/passthrough.s: src/passthrough.cpp.s
-
-.PHONY : src/passthrough.s
-
-# target to generate assembly for a file
-src/passthrough.cpp.s:
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/subscriber.dir/build.make localPCL/CMakeFiles/subscriber.dir/src/passthrough.cpp.s
-.PHONY : src/passthrough.cpp.s
-
 src/publisher.o: src/publisher.cpp.o
 
 .PHONY : src/publisher.o
@@ -401,6 +374,33 @@ src/publisher.cpp.s:
 	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/publisher.dir/build.make localPCL/CMakeFiles/publisher.dir/src/publisher.cpp.s
 .PHONY : src/publisher.cpp.s
 
+src/subscriber.o: src/subscriber.cpp.o
+
+.PHONY : src/subscriber.o
+
+# target to build an object file
+src/subscriber.cpp.o:
+	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/subscriber.dir/build.make localPCL/CMakeFiles/subscriber.dir/src/subscriber.cpp.o
+.PHONY : src/subscriber.cpp.o
+
+src/subscriber.i: src/subscriber.cpp.i
+
+.PHONY : src/subscriber.i
+
+# target to preprocess a source file
+src/subscriber.cpp.i:
+	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/subscriber.dir/build.make localPCL/CMakeFiles/subscriber.dir/src/subscriber.cpp.i
+.PHONY : src/subscriber.cpp.i
+
+src/subscriber.s: src/subscriber.cpp.s
+
+.PHONY : src/subscriber.s
+
+# target to generate assembly for a file
+src/subscriber.cpp.s:
+	cd /home/zjj/Documents/eie/ICV_system/lab2/build && $(MAKE) -f localPCL/CMakeFiles/subscriber.dir/build.make localPCL/CMakeFiles/subscriber.dir/src/subscriber.cpp.s
+.PHONY : src/subscriber.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -426,12 +426,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... topic_tools_generate_messages_py"
 	@echo "... publisher"
-	@echo "... src/passthrough.o"
-	@echo "... src/passthrough.i"
-	@echo "... src/passthrough.s"
 	@echo "... src/publisher.o"
 	@echo "... src/publisher.i"
 	@echo "... src/publisher.s"
+	@echo "... src/subscriber.o"
+	@echo "... src/subscriber.i"
+	@echo "... src/subscriber.s"
 .PHONY : help
 
 

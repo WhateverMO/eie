@@ -57,27 +57,27 @@ include localPCL/CMakeFiles/subscriber.dir/progress.make
 # Include the compile flags for this target's objects.
 include localPCL/CMakeFiles/subscriber.dir/flags.make
 
-localPCL/CMakeFiles/subscriber.dir/src/passthrough.cpp.o: localPCL/CMakeFiles/subscriber.dir/flags.make
-localPCL/CMakeFiles/subscriber.dir/src/passthrough.cpp.o: /home/zjj/Documents/eie/ICV_system/lab2/src/localPCL/src/passthrough.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjj/Documents/eie/ICV_system/lab2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object localPCL/CMakeFiles/subscriber.dir/src/passthrough.cpp.o"
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build/localPCL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/subscriber.dir/src/passthrough.cpp.o -c /home/zjj/Documents/eie/ICV_system/lab2/src/localPCL/src/passthrough.cpp
+localPCL/CMakeFiles/subscriber.dir/src/subscriber.cpp.o: localPCL/CMakeFiles/subscriber.dir/flags.make
+localPCL/CMakeFiles/subscriber.dir/src/subscriber.cpp.o: /home/zjj/Documents/eie/ICV_system/lab2/src/localPCL/src/subscriber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjj/Documents/eie/ICV_system/lab2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object localPCL/CMakeFiles/subscriber.dir/src/subscriber.cpp.o"
+	cd /home/zjj/Documents/eie/ICV_system/lab2/build/localPCL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/subscriber.dir/src/subscriber.cpp.o -c /home/zjj/Documents/eie/ICV_system/lab2/src/localPCL/src/subscriber.cpp
 
-localPCL/CMakeFiles/subscriber.dir/src/passthrough.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/subscriber.dir/src/passthrough.cpp.i"
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build/localPCL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjj/Documents/eie/ICV_system/lab2/src/localPCL/src/passthrough.cpp > CMakeFiles/subscriber.dir/src/passthrough.cpp.i
+localPCL/CMakeFiles/subscriber.dir/src/subscriber.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/subscriber.dir/src/subscriber.cpp.i"
+	cd /home/zjj/Documents/eie/ICV_system/lab2/build/localPCL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjj/Documents/eie/ICV_system/lab2/src/localPCL/src/subscriber.cpp > CMakeFiles/subscriber.dir/src/subscriber.cpp.i
 
-localPCL/CMakeFiles/subscriber.dir/src/passthrough.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/subscriber.dir/src/passthrough.cpp.s"
-	cd /home/zjj/Documents/eie/ICV_system/lab2/build/localPCL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjj/Documents/eie/ICV_system/lab2/src/localPCL/src/passthrough.cpp -o CMakeFiles/subscriber.dir/src/passthrough.cpp.s
+localPCL/CMakeFiles/subscriber.dir/src/subscriber.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/subscriber.dir/src/subscriber.cpp.s"
+	cd /home/zjj/Documents/eie/ICV_system/lab2/build/localPCL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjj/Documents/eie/ICV_system/lab2/src/localPCL/src/subscriber.cpp -o CMakeFiles/subscriber.dir/src/subscriber.cpp.s
 
 # Object files for target subscriber
 subscriber_OBJECTS = \
-"CMakeFiles/subscriber.dir/src/passthrough.cpp.o"
+"CMakeFiles/subscriber.dir/src/subscriber.cpp.o"
 
 # External object files for target subscriber
 subscriber_EXTERNAL_OBJECTS =
 
-/home/zjj/Documents/eie/ICV_system/lab2/devel/lib/localPCL/subscriber: localPCL/CMakeFiles/subscriber.dir/src/passthrough.cpp.o
+/home/zjj/Documents/eie/ICV_system/lab2/devel/lib/localPCL/subscriber: localPCL/CMakeFiles/subscriber.dir/src/subscriber.cpp.o
 /home/zjj/Documents/eie/ICV_system/lab2/devel/lib/localPCL/subscriber: localPCL/CMakeFiles/subscriber.dir/build.make
 /home/zjj/Documents/eie/ICV_system/lab2/devel/lib/localPCL/subscriber: /opt/ros/noetic/lib/librosbag.so
 /home/zjj/Documents/eie/ICV_system/lab2/devel/lib/localPCL/subscriber: /opt/ros/noetic/lib/librosbag_storage.so
