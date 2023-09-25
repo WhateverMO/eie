@@ -1,0 +1,2 @@
+carSensor
+-DCATKIN_DEVEL_PREFIX=/home/agilex/Documents/workspace/eie/agilex_soft/agx1/devel -DCMAKE_INSTALL_PREFIX=/home/agilex/Documents/workspace/eie/agilex_soft/agx1/install -G Unix Makefiles
