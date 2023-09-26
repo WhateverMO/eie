@@ -1,0 +1,2 @@
+realTime_Ransac
+-DCATKIN_DEVEL_PREFIX=/home/agilex/Documents/workspace/eie/ICV_system/lab3_melodic_on_car_realTime/devel -DCMAKE_INSTALL_PREFIX=/home/agilex/Documents/workspace/eie/ICV_system/lab3_melodic_on_car_realTime/install -G Unix Makefiles
