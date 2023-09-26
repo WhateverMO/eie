@@ -1,4 +1,4 @@
-#define DistanceC 1.49413525
+#define DistanceC 1.03
 
 #include <ros/ros.h>
 #include <tf/transform_broadcaster.h>
