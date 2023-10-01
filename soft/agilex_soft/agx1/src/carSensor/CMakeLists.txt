@@ -8,6 +8,7 @@ project(carSensor)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
+  cv_bridge
   roscpp
   rospy
   std_msgs
@@ -15,7 +16,9 @@ find_package(catkin REQUIRED COMPONENTS
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
-
+find_package(OpenCV REQUIRED)
+find_package(PCL REQUIRED)
+find_package(Boost REQUIRED COMPONENTS system filesystem thread)
 
 ## Uncomment this if the package has a setup.py. This macro ensures
 ## modules and global scripts declared therein get installed
@@ -116,9 +119,18 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
-# include
+  include
   ${catkin_INCLUDE_DIRS}
+  ${OpenCV_INCLUDE_DIRS}
+  ${PCL_INCLUDE_DIRS}
+  ${Boost_INCLUDE_DIRS}
 )
+link_directories(${PCL_LIBRARY_DIRS})
+add_definitions(${PCL_DEFINITIONS})
+link_directories(${OpenCV_LIBRARY_DIRS})
+add_definitions(${OpenCV_DEFINITIONS})
+link_directories(${Boost_LIBRARY_DIRS})
+add_definitions(${Boost_DEFINITIONS})
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
@@ -136,6 +148,7 @@ include_directories(
 # add_executable(${PROJECT_NAME}_node src/carSensor_node.cpp)
 
 add_executable(odometry src/odometry.cpp)
+add_executable(sensorView src/sensorView.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -154,6 +167,13 @@ add_executable(odometry src/odometry.cpp)
 
 target_link_libraries(odometry
   ${catkin_LIBRARIES}
+)
+
+target_link_libraries(sensorView
+  ${catkin_LIBRARIES}
+  ${OpenCV_LIBRARIES}
+  ${PCL_LIBRARIES}
+  ${Boost_LIBRARIES}
 )
 
 #############

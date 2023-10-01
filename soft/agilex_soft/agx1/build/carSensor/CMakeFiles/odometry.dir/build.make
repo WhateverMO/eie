@@ -90,6 +90,10 @@ odometry_EXTERNAL_OBJECTS =
 
 /home/agilex/Documents/workspace/eie/agilex_soft/agx1/devel/lib/carSensor/odometry: carSensor/CMakeFiles/odometry.dir/src/odometry.cpp.o
 /home/agilex/Documents/workspace/eie/agilex_soft/agx1/devel/lib/carSensor/odometry: carSensor/CMakeFiles/odometry.dir/build.make
+/home/agilex/Documents/workspace/eie/agilex_soft/agx1/devel/lib/carSensor/odometry: /home/agilex/catkin_ws/devel/lib/libcv_bridge.so
+/home/agilex/Documents/workspace/eie/agilex_soft/agx1/devel/lib/carSensor/odometry: /usr/lib/aarch64-linux-gnu/libopencv_core.so.3.2.0
+/home/agilex/Documents/workspace/eie/agilex_soft/agx1/devel/lib/carSensor/odometry: /usr/lib/aarch64-linux-gnu/libopencv_imgproc.so.3.2.0
+/home/agilex/Documents/workspace/eie/agilex_soft/agx1/devel/lib/carSensor/odometry: /usr/lib/aarch64-linux-gnu/libopencv_imgcodecs.so.3.2.0
 /home/agilex/Documents/workspace/eie/agilex_soft/agx1/devel/lib/carSensor/odometry: /opt/ros/melodic/lib/libroscpp.so
 /home/agilex/Documents/workspace/eie/agilex_soft/agx1/devel/lib/carSensor/odometry: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so
 /home/agilex/Documents/workspace/eie/agilex_soft/agx1/devel/lib/carSensor/odometry: /opt/ros/melodic/lib/librosconsole.so

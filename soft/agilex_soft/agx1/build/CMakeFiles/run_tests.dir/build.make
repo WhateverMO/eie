@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/agilex/Documents/workspace/eie/agilex_soft/agx1/src
+CMAKE_SOURCE_DIR = /home/agilex/Documents/workspace/eie/agilex_soft/agx1/src/carSensor
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/agilex/Documents/workspace/eie/agilex_soft/agx1/build
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/agilex/Documents/workspace/eie/agilex_soft/agx1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agilex/Documents/workspace/eie/agilex_soft/agx1/src /home/agilex/Documents/workspace/eie/agilex_soft/agx1/src /home/agilex/Documents/workspace/eie/agilex_soft/agx1/build /home/agilex/Documents/workspace/eie/agilex_soft/agx1/build /home/agilex/Documents/workspace/eie/agilex_soft/agx1/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/agilex/Documents/workspace/eie/agilex_soft/agx1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agilex/Documents/workspace/eie/agilex_soft/agx1/src/carSensor /home/agilex/Documents/workspace/eie/agilex_soft/agx1/src/carSensor /home/agilex/Documents/workspace/eie/agilex_soft/agx1/build /home/agilex/Documents/workspace/eie/agilex_soft/agx1/build /home/agilex/Documents/workspace/eie/agilex_soft/agx1/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 

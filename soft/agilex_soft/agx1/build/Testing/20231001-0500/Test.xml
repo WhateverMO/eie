@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20231001-0500-Experimental"
+	Name="xavier"
+	Generator="ctest-3.10.2"
+	CompilerName="/usr/bin/clang++"
+	CompilerVersion="6.0.0"
+	OSName="Linux"
+	Hostname="xavier"
+	OSRelease="4.9.140-tegra"
+	OSVersion="#1 SMP PREEMPT Fri Oct 16 12:25:00 PDT 2020"
+	OSPlatform="aarch64"
+	Is64Bits="1"
+	VendorString=""
+	VendorID="Unknown Manufacturer"
+	FamilyID="8"
+	ModelID="0"
+	ProcessorCacheSize="0"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="1"
+	TotalVirtualMemory="15959"
+	TotalPhysicalMemory="31918"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="0"
+	>
+	<Testing>
+		<StartDateTime>Oct 01 13:00 CST</StartDateTime>
+		<StartTestTime>1696136436</StartTestTime>
+		<TestList/>
+		<EndDateTime>Oct 01 13:00 CST</EndDateTime>
+		<EndTestTime>1696136436</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

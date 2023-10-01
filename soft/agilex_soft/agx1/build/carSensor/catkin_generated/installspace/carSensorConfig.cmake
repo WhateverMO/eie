@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/agilex/Documents/workspace/eie/agilex_soft/agx1/install/lib;/home/agilex/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/agilex/Documents/workspace/eie/agilex_soft/agx1/install/lib;/home/agilex/Documents/workspace/eie/agilex_soft/agx1/devel/lib;/home/agilex/catkin_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
