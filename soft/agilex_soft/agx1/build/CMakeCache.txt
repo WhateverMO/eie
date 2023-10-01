@@ -89,11 +89,14 @@ Boost_THREAD_LIBRARY_DEBUG:FILEPATH=/usr/lib/aarch64-linux-gnu/libboost_thread.s
 //Boost thread library (release)
 Boost_THREAD_LIBRARY_RELEASE:FILEPATH=/usr/lib/aarch64-linux-gnu/libboost_thread.so
 
+//List of ';' separated packages to exclude
+CATKIN_BLACKLIST_PACKAGES:STRING=
+
+//catkin devel space
+CATKIN_DEVEL_PREFIX:PATH=/home/agilex/Documents/workspace/eie/agilex_soft/agx1/devel
+
 //Catkin enable testing
 CATKIN_ENABLE_TESTING:BOOL=ON
-
-//Prefix to apply to package generated via gendebian
-CATKIN_PACKAGE_PREFIX:STRING=
 
 //Catkin skip testing
 CATKIN_SKIP_TESTING:BOOL=OFF
@@ -102,23 +105,29 @@ CATKIN_SKIP_TESTING:BOOL=OFF
 // using symlinks instead of copying resources
 CATKIN_SYMLINK_INSTALL:BOOL=OFF
 
+//List of ';' separated packages to build
+CATKIN_WHITELIST_PACKAGES:STRING=
+
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
-//No help, variable specified on the command line.
-CMAKE_BUILD_TYPE:STRING=Debug
+//Choose the type of build, options are: None(CMAKE_CXX_FLAGS or
+// CMAKE_C_FLAGS used) Debug Release RelWithDebInfo MinSizeRel.
+CMAKE_BUILD_TYPE:STRING=
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-//No help, variable specified on the command line.
-CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/clang++
+//CXX compiler
+CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
 
-//LLVM archiver
-CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/llvm-ar-6.0
+//A wrapper around 'ar' adding the appropriate '--plugin' option
+// for the GCC compiler
+CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-7
 
-//Generate index for LLVM archive
-CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/llvm-ranlib-6.0
+//A wrapper around 'ranlib' adding the appropriate '--plugin' option
+// for the GCC compiler
+CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-7
 
 //Flags used by the compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -136,14 +145,16 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 //Flags used by the compiler during release builds with debug info.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
-//No help, variable specified on the command line.
-CMAKE_C_COMPILER:FILEPATH=/usr/bin/clang
+//C compiler
+CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
 
-//LLVM archiver
-CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/llvm-ar-6.0
+//A wrapper around 'ar' adding the appropriate '--plugin' option
+// for the GCC compiler
+CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-7
 
-//Generate index for LLVM archive
-CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/llvm-ranlib-6.0
+//A wrapper around 'ranlib' adding the appropriate '--plugin' option
+// for the GCC compiler
+CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-7
 
 //Flags used by the compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -176,11 +187,11 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 //Flags used by the linker during Release with Debug Info builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
-//No help, variable specified on the command line.
-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
+//Enable/Disable output of compile commands during generation.
+CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=OFF
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=/usr/local
+CMAKE_INSTALL_PREFIX:PATH=/home/agilex/Documents/workspace/eie/agilex_soft/agx1/install
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=/usr/bin/ld
@@ -213,7 +224,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=carSensor
+CMAKE_PROJECT_NAME:STATIC=Project
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -564,6 +575,12 @@ PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python2
 //Specify specific Python version to use ('major.minor' or 'major')
 PYTHON_VERSION:STRING=2
 
+//Value Computed by CMake
+Project_BINARY_DIR:STATIC=/home/agilex/Documents/workspace/eie/agilex_soft/agx1/build
+
+//Value Computed by CMake
+Project_SOURCE_DIR:STATIC=/home/agilex/Documents/workspace/eie/agilex_soft/agx1/src
+
 //Path to a file.
 QHULL_INCLUDE_DIRS:PATH=/usr/include
 
@@ -625,7 +642,7 @@ _gtest_INCLUDES:FILEPATH=/usr/include/gtest/gtest.h
 _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
 
 //Value Computed by CMake
-carSensor_BINARY_DIR:STATIC=/home/agilex/Documents/workspace/eie/agilex_soft/agx1/build
+carSensor_BINARY_DIR:STATIC=/home/agilex/Documents/workspace/eie/agilex_soft/agx1/build/carSensor
 
 //Value Computed by CMake
 carSensor_SOURCE_DIR:STATIC=/home/agilex/Documents/workspace/eie/agilex_soft/agx1/src/carSensor
@@ -859,7 +876,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/agilex/Documents/workspace/eie/agilex_soft/agx1/src/carSensor
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/agilex/Documents/workspace/eie/agilex_soft/agx1/src
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
@@ -879,7 +896,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

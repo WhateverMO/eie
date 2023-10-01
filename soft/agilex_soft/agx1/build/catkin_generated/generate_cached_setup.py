@@ -19,7 +19,7 @@ except ImportError:
             break
     from catkin.environment_cache import generate_environment_script
 
-code = generate_environment_script('/home/agilex/Documents/workspace/eie/agilex_soft/agx1/build/devel/env.sh')
+code = generate_environment_script('/home/agilex/Documents/workspace/eie/agilex_soft/agx1/devel/env.sh')
 
 output_filename = '/home/agilex/Documents/workspace/eie/agilex_soft/agx1/build/catkin_generated/setup_cached.sh'
 with open(output_filename, 'w') as f:

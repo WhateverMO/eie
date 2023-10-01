@@ -1,8 +1,8 @@
-# Install script for directory: /home/agilex/Documents/workspace/eie/agilex_soft/agx1/src/carSensor
+# Install script for directory: /home/agilex/Documents/workspace/eie/agilex_soft/agx1/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -49,38 +49,38 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/_setup_util.py")
+   "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/install" TYPE PROGRAM FILES "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/env.sh")
+   "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/install" TYPE PROGRAM FILES "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/setup.bash;/usr/local/local_setup.bash")
+   "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/install/setup.bash;/home/agilex/Documents/workspace/eie/agilex_soft/agx1/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES
+file(INSTALL DESTINATION "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/install" TYPE FILE FILES
     "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/build/catkin_generated/installspace/setup.bash"
     "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/build/catkin_generated/installspace/local_setup.bash"
     )
@@ -88,14 +88,14 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/setup.sh;/usr/local/local_setup.sh")
+   "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/install/setup.sh;/home/agilex/Documents/workspace/eie/agilex_soft/agx1/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES
+file(INSTALL DESTINATION "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/install" TYPE FILE FILES
     "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/build/catkin_generated/installspace/setup.sh"
     "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/build/catkin_generated/installspace/local_setup.sh"
     )
@@ -103,14 +103,14 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/setup.zsh;/usr/local/local_setup.zsh")
+   "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/install/setup.zsh;/home/agilex/Documents/workspace/eie/agilex_soft/agx1/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES
+file(INSTALL DESTINATION "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/install" TYPE FILE FILES
     "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/build/catkin_generated/installspace/setup.zsh"
     "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/build/catkin_generated/installspace/local_setup.zsh"
     )
@@ -118,34 +118,20 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/.rosinstall")
+   "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/build/catkin_generated/installspace/.rosinstall")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/build/catkin_generated/installspace/carSensor.pc")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carSensor/cmake" TYPE FILE FILES
-    "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/build/catkin_generated/installspace/carSensorConfig.cmake"
-    "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/build/catkin_generated/installspace/carSensorConfig-version.cmake"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carSensor" TYPE FILE FILES "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/src/carSensor/package.xml")
+file(INSTALL DESTINATION "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/install" TYPE FILE FILES "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/agilex/Documents/workspace/eie/agilex_soft/agx1/build/gtest/cmake_install.cmake")
+  include("/home/agilex/Documents/workspace/eie/agilex_soft/agx1/build/carSensor/cmake_install.cmake")
 
 endif()
 

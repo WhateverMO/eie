@@ -2,4 +2,4 @@
 source_root_dir = '/home/agilex/Documents/workspace/eie/agilex_soft/agx1/src'
 whitelisted_packages = ''.split(';') if '' != '' else []
 blacklisted_packages = ''.split(';') if '' != '' else []
-underlay_workspaces = '/home/agilex/Documents/workspace/eie/agilex_soft/agx1/devel;/home/agilex/catkin_ws/devel;/opt/ros/melodic'.split(';') if '/home/agilex/Documents/workspace/eie/agilex_soft/agx1/devel;/home/agilex/catkin_ws/devel;/opt/ros/melodic' != '' else []
+underlay_workspaces = '/home/agilex/catkin_ws/devel;/opt/ros/melodic'.split(';') if '/home/agilex/catkin_ws/devel;/opt/ros/melodic' != '' else []

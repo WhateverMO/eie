@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/usr/src/googletest/googlemock/src/gmock-all.cc" "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/build/gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o"
   "/usr/src/googletest/googlemock/src/gmock_main.cc" "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/build/gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
