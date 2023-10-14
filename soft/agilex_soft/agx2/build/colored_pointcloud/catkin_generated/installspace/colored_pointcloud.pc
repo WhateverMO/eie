@@ -1,0 +1,8 @@
+prefix=/home/agilex/jjzycar/swoft2/install
+
+Name: colored_pointcloud
+Description: Description of colored_pointcloud
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

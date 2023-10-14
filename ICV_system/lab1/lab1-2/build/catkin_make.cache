@@ -1,0 +1,2 @@
+carPCL:localPCL
+-DCATKIN_DEVEL_PREFIX=/home/zjj/Documents/eie/ICV_system/lab2/devel -DCMAKE_INSTALL_PREFIX=/home/zjj/Documents/eie/ICV_system/lab2/install -G Unix Makefiles
