@@ -1,0 +1,16 @@
+uint8 base_state
+uint8 control_mode
+uint8 fault_code
+float64 battery_voltage
+
+ActuatorState[] actuator_states
+
+bool light_control_enabled
+LightState front_light_state
+LightState rear_light_state
+
+float64 linear_velocity
+float64 angular_velocity
+
+float64 left_odometry
+float64 right_odometry

@@ -1,0 +1,2 @@
+car_agilex
+-DCATKIN_DEVEL_PREFIX=/home/agilex/Documents/workspace/eie/soft/agilex_soft/agx3/devel -DCMAKE_INSTALL_PREFIX=/home/agilex/Documents/workspace/eie/soft/agilex_soft/agx3/install -G Unix Makefiles
