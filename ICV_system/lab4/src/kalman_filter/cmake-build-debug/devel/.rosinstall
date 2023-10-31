@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/fairlee/catkin_ws/src/KalmanFilter-master/cmake-build-debug/devel/setup.sh

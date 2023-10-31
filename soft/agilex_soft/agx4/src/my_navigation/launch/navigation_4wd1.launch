@@ -1,0 +1,51 @@
+<?xml version="1"?>
+<!-- 
+  Simulate a carlike robot with the teb_local_planner in stage:
+  - stage
+  - map_server
+  - move_base
+  - static map
+  - amcl
+  - rviz view
+ -->
+<launch>
+
+        <!--  ************** Navigation ***************  -->
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+    <rosparam file="$(find my_navigation)/config/param/4wd/costmap_common_params.yaml" command="load" ns="global_costmap" />
+
+    <rosparam file="$(find my_navigation)/config/param/4wd/costmap_common_params.yaml" command="load" ns="local_costmap" />
+
+    <rosparam file="$(find my_navigation)/config/param/4wd/local_costmap_params.yaml" command="load" />
+
+    <rosparam file="$(find my_navigation)/config/param/4wd/global_costmap_params.yaml" command="load" />
+
+    <rosparam file="$(find my_navigation)/config/param/4wd/base_local_planner_params.yaml" command="load" />
+
+    <rosparam file="$(find my_navigation)/config/param/4wd/move_base_params.yaml" command="load" />
+  </node>
+
+
+	<!--  ****** Maps *****  -->
+ <node name="map_server" pkg="map_server" type="map_server" args="/home/agilex/maze1/map.yaml" output="screen">
+     <!--  <node name="map_server" pkg="map_server" type="map_server" args="/home/nvidia/map/2.yaml" output="screen">-->
+      <param name="frame_id" value="map"/>
+	</node>
+
+	<node pkg="amcl" type="amcl" name="amcl" output="screen">
+		<rosparam file="$(find my_navigation)/config/param/amcl_params.yaml" command="load" />
+      		<param name="initial_pose_x"            value="0"/>
+      		<param name="initial_pose_y"            value="0"/>
+		<param name="initial_pose_a"            value="0"/>
+	</node>
+
+  <!--  **************** Visualisation ****************  -->
+  <node name="car_rviz" pkg="rviz" type="rviz" args="-d $(find my_navigation)/config/rviz/rviz_navigation.rviz">
+  </node>
+  <include file="$(find scout_bringup)/launch/scout_volecity_smoother.launch"/>
+  <include file="$(find scout_base)/launch/scout_mini_base.launch">
+      <arg name="port_name" default="can0" />
+      <arg name="simulated_robot" default="false" />
+  </include>
+
+</launch>
