@@ -1,0 +1,8 @@
+prefix=/home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/install
+
+Name: my_navigation
+Description: Description of my_navigation
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

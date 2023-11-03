@@ -1,5 +1,5 @@
 # generated from catkin/cmake/template/order_packages.context.py.in
-source_root_dir = '/home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/src'
+source_root_dir = '/home/agilex/Documents/workspace/eie/ICV_system/lab4/src'
 whitelisted_packages = ''.split(';') if '' != '' else []
 blacklisted_packages = ''.split(';') if '' != '' else []
-underlay_workspaces = '/home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/devel;/home/agilex/catkin_ws/devel;/opt/ros/melodic'.split(';') if '/home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/devel;/home/agilex/catkin_ws/devel;/opt/ros/melodic' != '' else []
+underlay_workspaces = '/home/agilex/catkin_ws/devel;/opt/ros/melodic'.split(';') if '/home/agilex/catkin_ws/devel;/opt/ros/melodic' != '' else []

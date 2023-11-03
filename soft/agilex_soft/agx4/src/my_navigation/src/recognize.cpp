@@ -168,7 +168,7 @@ int main(int argc, char** argv)
         return 1;
     }
     // 创建ROS节点
-    ros::init(argc, argv, "image_recognition");
+    ros::init(argc, argv, "recognize");
 
     // 读取外部模板图像，并将其转换为轮廓模板
     std::vector<std::vector<cv::Point>> templates_ = {

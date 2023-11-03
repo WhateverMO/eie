@@ -67,14 +67,14 @@ set(kalman_filter_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(kalman_filter_SOURCE_PREFIX /home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/src/kalman_filter)
-  set(kalman_filter_DEVEL_PREFIX /home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/devel)
+  set(kalman_filter_SOURCE_PREFIX /home/agilex/Documents/workspace/eie/ICV_system/lab4/src/kalman_filter)
+  set(kalman_filter_DEVEL_PREFIX /home/agilex/Documents/workspace/eie/ICV_system/lab4/devel)
   set(kalman_filter_INSTALL_PREFIX "")
   set(kalman_filter_PREFIX ${kalman_filter_DEVEL_PREFIX})
 else()
   set(kalman_filter_SOURCE_PREFIX "")
   set(kalman_filter_DEVEL_PREFIX "")
-  set(kalman_filter_INSTALL_PREFIX /home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/install)
+  set(kalman_filter_INSTALL_PREFIX /home/agilex/Documents/workspace/eie/ICV_system/lab4/install)
   set(kalman_filter_PREFIX ${kalman_filter_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/install/lib;/home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/devel/lib;/home/agilex/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/agilex/Documents/workspace/eie/ICV_system/lab4/install/lib;/home/agilex/catkin_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

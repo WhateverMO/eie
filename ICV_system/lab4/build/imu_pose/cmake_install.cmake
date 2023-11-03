@@ -1,8 +1,8 @@
-# Install script for directory: /home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/src/imu_pose
+# Install script for directory: /home/agilex/Documents/workspace/eie/ICV_system/lab4/src/imu_pose
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/install")
+  set(CMAKE_INSTALL_PREFIX "/home/agilex/Documents/workspace/eie/ICV_system/lab4/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,21 +38,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/build/imu_pose/catkin_generated/installspace/imu_pose.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/agilex/Documents/workspace/eie/ICV_system/lab4/build/imu_pose/catkin_generated/installspace/imu_pose.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_pose/cmake" TYPE FILE FILES
-    "/home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/build/imu_pose/catkin_generated/installspace/imu_poseConfig.cmake"
-    "/home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/build/imu_pose/catkin_generated/installspace/imu_poseConfig-version.cmake"
+    "/home/agilex/Documents/workspace/eie/ICV_system/lab4/build/imu_pose/catkin_generated/installspace/imu_poseConfig.cmake"
+    "/home/agilex/Documents/workspace/eie/ICV_system/lab4/build/imu_pose/catkin_generated/installspace/imu_poseConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_pose" TYPE FILE FILES "/home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/src/imu_pose/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_pose" TYPE FILE FILES "/home/agilex/Documents/workspace/eie/ICV_system/lab4/src/imu_pose/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/imu_pose" TYPE PROGRAM FILES "/home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/build/imu_pose/catkin_generated/installspace/analyze.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/imu_pose" TYPE PROGRAM FILES "/home/agilex/Documents/workspace/eie/ICV_system/lab4/build/imu_pose/catkin_generated/installspace/analyze.py")
 endif()
 

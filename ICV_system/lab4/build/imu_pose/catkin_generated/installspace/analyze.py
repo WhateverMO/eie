@@ -77,7 +77,7 @@ def callback_acc(msg):
 if __name__ == '__main__':
     rospy.init_node('analyze')
     rospy.loginfo('analyze node started')
-    sub = rospy.Subscriber('/imu_world', Imu, callback_acc)
+    sub = rospy.Subscriber('/imu_kalman', Imu, callback_acc)
     i = 0
     while not rospy.is_shutdown():
         if i%100 == 0:

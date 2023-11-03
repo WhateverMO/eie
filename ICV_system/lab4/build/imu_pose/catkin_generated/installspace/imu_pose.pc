@@ -1,4 +1,4 @@
-prefix=/home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/install
+prefix=/home/agilex/Documents/workspace/eie/ICV_system/lab4/install
 
 Name: imu_pose
 Description: Description of imu_pose

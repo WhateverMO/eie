@@ -165,7 +165,7 @@ int main(int argc, char** argv)
 {
     ros::init(argc,argv,"imu_pose");
     ros::NodeHandle nh;
-    ros::Subscriber imu_sub = nh.subscribe("/imu/data_raw",50,imu_callback);
+    ros::Subscriber imu_sub = nh.subscribe("/imu_kalman",50,imu_callback);
     pose_pub = nh.advertise<nav_msgs::Path>("/imu_pose",100);
     acc_pub = nh.advertise<sensor_msgs::Imu>("/imu_world",100);
     ros::spin();
