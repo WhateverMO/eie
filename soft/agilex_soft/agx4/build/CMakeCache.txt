@@ -302,6 +302,9 @@ cpp_common_DIR:PATH=/opt/ros/melodic/share/cpp_common/cmake
 //The directory containing a CMake configuration file for cv_bridge.
 cv_bridge_DIR:PATH=/home/agilex/catkin_ws/devel/share/cv_bridge/cmake
 
+//The directory containing a CMake configuration file for darknet_ros_msgs.
+darknet_ros_msgs_DIR:PATH=/home/agilex/catkin_ws/devel/share/darknet_ros_msgs/cmake
+
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/melodic/share/gencpp/cmake
 

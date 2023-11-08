@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+my_navigation/CMakeFiles/yolo.dir/rule:
+	cd /home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/build && $(MAKE) -f CMakeFiles/Makefile2 my_navigation/CMakeFiles/yolo.dir/rule
+.PHONY : my_navigation/CMakeFiles/yolo.dir/rule
+
+# Convenience name for target.
+yolo: my_navigation/CMakeFiles/yolo.dir/rule
+
+.PHONY : yolo
+
+# fast build rule for target.
+yolo/fast:
+	cd /home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/build && $(MAKE) -f my_navigation/CMakeFiles/yolo.dir/build.make my_navigation/CMakeFiles/yolo.dir/build
+.PHONY : yolo/fast
+
+# Convenience name for target.
 my_navigation/CMakeFiles/recognize.dir/rule:
 	cd /home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/build && $(MAKE) -f CMakeFiles/Makefile2 my_navigation/CMakeFiles/recognize.dir/rule
 .PHONY : my_navigation/CMakeFiles/recognize.dir/rule
@@ -196,6 +211,51 @@ movebase: my_navigation/CMakeFiles/movebase.dir/rule
 movebase/fast:
 	cd /home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/build && $(MAKE) -f my_navigation/CMakeFiles/movebase.dir/build.make my_navigation/CMakeFiles/movebase.dir/build
 .PHONY : movebase/fast
+
+# Convenience name for target.
+my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_py.dir/rule:
+	cd /home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/build && $(MAKE) -f CMakeFiles/Makefile2 my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_py.dir/rule
+.PHONY : my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+darknet_ros_msgs_generate_messages_py: my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_py.dir/rule
+
+.PHONY : darknet_ros_msgs_generate_messages_py
+
+# fast build rule for target.
+darknet_ros_msgs_generate_messages_py/fast:
+	cd /home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/build && $(MAKE) -f my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_py.dir/build.make my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_py.dir/build
+.PHONY : darknet_ros_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_eus.dir/rule:
+	cd /home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/build && $(MAKE) -f CMakeFiles/Makefile2 my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_eus.dir/rule
+.PHONY : my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+darknet_ros_msgs_generate_messages_eus: my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_eus.dir/rule
+
+.PHONY : darknet_ros_msgs_generate_messages_eus
+
+# fast build rule for target.
+darknet_ros_msgs_generate_messages_eus/fast:
+	cd /home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/build && $(MAKE) -f my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_eus.dir/build.make my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_eus.dir/build
+.PHONY : darknet_ros_msgs_generate_messages_eus/fast
+
+# Convenience name for target.
+my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_cpp.dir/rule:
+	cd /home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/build && $(MAKE) -f CMakeFiles/Makefile2 my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_cpp.dir/rule
+.PHONY : my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+darknet_ros_msgs_generate_messages_cpp: my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : darknet_ros_msgs_generate_messages_cpp
+
+# fast build rule for target.
+darknet_ros_msgs_generate_messages_cpp/fast:
+	cd /home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/build && $(MAKE) -f my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_cpp.dir/build.make my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_cpp.dir/build
+.PHONY : darknet_ros_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 my_navigation/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule:
@@ -453,6 +513,21 @@ nav_msgs_generate_messages_nodejs/fast:
 .PHONY : nav_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
+my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_lisp.dir/rule:
+	cd /home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/build && $(MAKE) -f CMakeFiles/Makefile2 my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_lisp.dir/rule
+.PHONY : my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+darknet_ros_msgs_generate_messages_lisp: my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : darknet_ros_msgs_generate_messages_lisp
+
+# fast build rule for target.
+darknet_ros_msgs_generate_messages_lisp/fast:
+	cd /home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/build && $(MAKE) -f my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_lisp.dir/build.make my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_lisp.dir/build
+.PHONY : darknet_ros_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
 my_navigation/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule:
 	cd /home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/build && $(MAKE) -f CMakeFiles/Makefile2 my_navigation/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 .PHONY : my_navigation/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
@@ -541,6 +616,21 @@ actionlib_msgs_generate_messages_nodejs: my_navigation/CMakeFiles/actionlib_msgs
 actionlib_msgs_generate_messages_nodejs/fast:
 	cd /home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/build && $(MAKE) -f my_navigation/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make my_navigation/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
 .PHONY : actionlib_msgs_generate_messages_nodejs/fast
+
+# Convenience name for target.
+my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_nodejs.dir/rule:
+	cd /home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/build && $(MAKE) -f CMakeFiles/Makefile2 my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_nodejs.dir/rule
+.PHONY : my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+darknet_ros_msgs_generate_messages_nodejs: my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : darknet_ros_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+darknet_ros_msgs_generate_messages_nodejs/fast:
+	cd /home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/build && $(MAKE) -f my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_nodejs.dir/build.make my_navigation/CMakeFiles/darknet_ros_msgs_generate_messages_nodejs.dir/build
+.PHONY : darknet_ros_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 my_navigation/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
@@ -1016,6 +1106,33 @@ src/recognize.cpp.s:
 	cd /home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/build && $(MAKE) -f my_navigation/CMakeFiles/recognize.dir/build.make my_navigation/CMakeFiles/recognize.dir/src/recognize.cpp.s
 .PHONY : src/recognize.cpp.s
 
+src/yolo.o: src/yolo.cpp.o
+
+.PHONY : src/yolo.o
+
+# target to build an object file
+src/yolo.cpp.o:
+	cd /home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/build && $(MAKE) -f my_navigation/CMakeFiles/yolo.dir/build.make my_navigation/CMakeFiles/yolo.dir/src/yolo.cpp.o
+.PHONY : src/yolo.cpp.o
+
+src/yolo.i: src/yolo.cpp.i
+
+.PHONY : src/yolo.i
+
+# target to preprocess a source file
+src/yolo.cpp.i:
+	cd /home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/build && $(MAKE) -f my_navigation/CMakeFiles/yolo.dir/build.make my_navigation/CMakeFiles/yolo.dir/src/yolo.cpp.i
+.PHONY : src/yolo.cpp.i
+
+src/yolo.s: src/yolo.cpp.s
+
+.PHONY : src/yolo.s
+
+# target to generate assembly for a file
+src/yolo.cpp.s:
+	cd /home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/build && $(MAKE) -f my_navigation/CMakeFiles/yolo.dir/build.make my_navigation/CMakeFiles/yolo.dir/src/yolo.cpp.s
+.PHONY : src/yolo.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1023,8 +1140,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... list_install_components"
+	@echo "... yolo"
 	@echo "... recognize"
 	@echo "... movebase"
+	@echo "... darknet_ros_msgs_generate_messages_py"
+	@echo "... darknet_ros_msgs_generate_messages_eus"
+	@echo "... darknet_ros_msgs_generate_messages_cpp"
 	@echo "... tf2_msgs_generate_messages_nodejs"
 	@echo "... install/strip"
 	@echo "... tf2_msgs_generate_messages_py"
@@ -1045,6 +1166,7 @@ help:
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... nav_msgs_generate_messages_nodejs"
+	@echo "... darknet_ros_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... edit_cache"
 	@echo "... nav_msgs_generate_messages_lisp"
@@ -1052,6 +1174,7 @@ help:
 	@echo "... tf_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... actionlib_msgs_generate_messages_nodejs"
+	@echo "... darknet_ros_msgs_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... sensor_msgs_generate_messages_py"
@@ -1088,6 +1211,9 @@ help:
 	@echo "... src/recognize.o"
 	@echo "... src/recognize.i"
 	@echo "... src/recognize.s"
+	@echo "... src/yolo.o"
+	@echo "... src/yolo.i"
+	@echo "... src/yolo.s"
 .PHONY : help
 
 

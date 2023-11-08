@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/src/my_navigation/src/recognize.cpp" "/home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/build/my_navigation/CMakeFiles/recognize.dir/src/recognize.cpp.o"
+  "/home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/src/my_navigation/src/yolo.cpp" "/home/agilex/Documents/workspace/eie/soft/agilex_soft/agx4/build/my_navigation/CMakeFiles/yolo.dir/src/yolo.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

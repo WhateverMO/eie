@@ -14,6 +14,7 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   tf
   cv_bridge
+  darknet_ros_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -144,6 +145,7 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 add_executable(movebase src/movebase.cpp)
 add_executable(recognize src/recognize.cpp)
+add_executable(yolo src/yolo.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -160,6 +162,11 @@ target_link_libraries(movebase
   ${catkin_LIBRARIES}
 )
 target_link_libraries(recognize
+  ${catkin_LIBRARIES}
+  ${OpenCV_LIBS}
+  # ${Boost_LIBRARIES}
+)
+target_link_libraries(yolo
   ${catkin_LIBRARIES}
   ${OpenCV_LIBS}
   # ${Boost_LIBRARIES}
