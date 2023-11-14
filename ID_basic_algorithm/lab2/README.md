@@ -7,6 +7,7 @@ you need to install pyenv and poetry
 
 ```bash
 pyenv install 3.8.6
+pyenv local 3.8.6
 poetry env use 3.8.6
 poetry install --no-root
 ```
