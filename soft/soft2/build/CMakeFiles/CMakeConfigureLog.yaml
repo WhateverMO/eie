@@ -1,0 +1,445 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Linux - 6.5.2-arch1-1 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /sbin/clang 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is Clang, found in:
+        /home/zjj/Documents/eie/soft2/build/CMakeFiles/3.27.4/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /sbin/clang++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/zjj/Documents/eie/soft2/build/CMakeFiles/3.27.4/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/zjj/Documents/eie/soft2/build/CMakeFiles/CMakeScratch/TryCompile-oXwgo5"
+      binary: "/home/zjj/Documents/eie/soft2/build/CMakeFiles/CMakeScratch/TryCompile-oXwgo5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/zjj/Documents/eie/soft2/build/CMakeFiles/CMakeScratch/TryCompile-oXwgo5'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /sbin/make -f Makefile cmTC_c2261/fast
+        /sbin/make  -f CMakeFiles/cmTC_c2261.dir/build.make CMakeFiles/cmTC_c2261.dir/build
+        make[1]: Entering directory '/home/zjj/Documents/eie/soft2/build/CMakeFiles/CMakeScratch/TryCompile-oXwgo5'
+        Building C object CMakeFiles/cmTC_c2261.dir/CMakeCCompilerABI.c.o
+        /sbin/clang   -v -MD -MT CMakeFiles/cmTC_c2261.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_c2261.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_c2261.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        clang version 16.0.6
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /sbin
+        Found candidate GCC installation: /sbin/../lib/gcc/x86_64-pc-linux-gnu/13.2.1
+        Found candidate GCC installation: /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1
+        Selected GCC installation: /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1
+        Candidate multilib: .;@m64
+        Candidate multilib: 32;@m32
+        Selected multilib: .;@m64
+         (in-process)
+         "/usr/bin/clang-16" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/zjj/Documents/eie/soft2/build/CMakeFiles/CMakeScratch/TryCompile-oXwgo5 -resource-dir /usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_c2261.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_c2261.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/clang/16/include -internal-isystem /usr/local/include -internal-isystem /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/home/zjj/Documents/eie/soft2/build/CMakeFiles/CMakeScratch/TryCompile-oXwgo5 -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c2261.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-pc-linux-gnu
+        ignoring nonexistent directory "/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../x86_64-pc-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/clang/16/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        Linking C executable cmTC_c2261
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2261.dir/link.txt --verbose=1
+        /sbin/clang  -v CMakeFiles/cmTC_c2261.dir/CMakeCCompilerABI.c.o -o cmTC_c2261 
+        clang version 16.0.6
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /sbin
+        Found candidate GCC installation: /sbin/../lib/gcc/x86_64-pc-linux-gnu/13.2.1
+        Found candidate GCC installation: /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1
+        Selected GCC installation: /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1
+        Candidate multilib: .;@m64
+        Candidate multilib: 32;@m32
+        Selected multilib: .;@m64
+         "/sbin/ld" -pie --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c2261 /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/Scrt1.o /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/crti.o /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1 -L/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib CMakeFiles/cmTC_c2261.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/crtn.o
+        make[1]: Leaving directory '/home/zjj/Documents/eie/soft2/build/CMakeFiles/CMakeScratch/TryCompile-oXwgo5'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/clang/16/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/clang/16/include] ==> [/usr/lib/clang/16/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/clang/16/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/zjj/Documents/eie/soft2/build/CMakeFiles/CMakeScratch/TryCompile-oXwgo5']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /sbin/make -f Makefile cmTC_c2261/fast]
+        ignore line: [/sbin/make  -f CMakeFiles/cmTC_c2261.dir/build.make CMakeFiles/cmTC_c2261.dir/build]
+        ignore line: [make[1]: Entering directory '/home/zjj/Documents/eie/soft2/build/CMakeFiles/CMakeScratch/TryCompile-oXwgo5']
+        ignore line: [Building C object CMakeFiles/cmTC_c2261.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/sbin/clang   -v -MD -MT CMakeFiles/cmTC_c2261.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_c2261.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_c2261.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang version 16.0.6]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /sbin]
+        ignore line: [Found candidate GCC installation: /sbin/../lib/gcc/x86_64-pc-linux-gnu/13.2.1]
+        ignore line: [Found candidate GCC installation: /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1]
+        ignore line: [Selected GCC installation: /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Candidate multilib: 32]
+        ignore line: [@m32]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/usr/bin/clang-16" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/zjj/Documents/eie/soft2/build/CMakeFiles/CMakeScratch/TryCompile-oXwgo5 -resource-dir /usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_c2261.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_c2261.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/clang/16/include -internal-isystem /usr/local/include -internal-isystem /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/home/zjj/Documents/eie/soft2/build/CMakeFiles/CMakeScratch/TryCompile-oXwgo5 -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c2261.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-pc-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [ignoring nonexistent directory "/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/clang/16/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_c2261]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2261.dir/link.txt --verbose=1]
+        ignore line: [/sbin/clang  -v CMakeFiles/cmTC_c2261.dir/CMakeCCompilerABI.c.o -o cmTC_c2261 ]
+        ignore line: [clang version 16.0.6]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /sbin]
+        ignore line: [Found candidate GCC installation: /sbin/../lib/gcc/x86_64-pc-linux-gnu/13.2.1]
+        ignore line: [Found candidate GCC installation: /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1]
+        ignore line: [Selected GCC installation: /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Candidate multilib: 32]
+        ignore line: [@m32]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/sbin/ld" -pie --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c2261 /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/Scrt1.o /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/crti.o /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1 -L/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib CMakeFiles/cmTC_c2261.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/crtn.o]
+          arg [/sbin/ld] ==> ignore
+          arg [-pie] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_c2261] ==> ignore
+          arg [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/Scrt1.o] ==> obj [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/Scrt1.o]
+          arg [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/crti.o] ==> obj [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/crti.o]
+          arg [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o] ==> obj [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o]
+          arg [-L/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1] ==> dir [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1]
+          arg [-L/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64] ==> dir [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [CMakeFiles/cmTC_c2261.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o] ==> obj [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o]
+          arg [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/crtn.o] ==> obj [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/crtn.o]
+        collapse obj [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/Scrt1.o] ==> [/lib64/Scrt1.o]
+        collapse obj [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/crti.o] ==> [/lib64/crti.o]
+        collapse obj [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o] ==> [/lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o]
+        collapse obj [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o] ==> [/lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o]
+        collapse obj [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/crtn.o] ==> [/lib64/crtn.o]
+        collapse library dir [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1] ==> [/lib64/gcc/x86_64-pc-linux-gnu/13.2.1]
+        collapse library dir [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64] ==> [/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/lib64/Scrt1.o;/lib64/crti.o;/lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o;/lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o;/lib64/crtn.o]
+        implicit dirs: [/lib64/gcc/x86_64-pc-linux-gnu/13.2.1;/lib64;/usr/lib64;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/zjj/Documents/eie/soft2/build/CMakeFiles/CMakeScratch/TryCompile-eOUvar"
+      binary: "/home/zjj/Documents/eie/soft2/build/CMakeFiles/CMakeScratch/TryCompile-eOUvar"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/zjj/Documents/eie/soft2/build/CMakeFiles/CMakeScratch/TryCompile-eOUvar'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /sbin/make -f Makefile cmTC_cb92c/fast
+        /sbin/make  -f CMakeFiles/cmTC_cb92c.dir/build.make CMakeFiles/cmTC_cb92c.dir/build
+        make[1]: Entering directory '/home/zjj/Documents/eie/soft2/build/CMakeFiles/CMakeScratch/TryCompile-eOUvar'
+        Building CXX object CMakeFiles/cmTC_cb92c.dir/CMakeCXXCompilerABI.cpp.o
+        /sbin/clang++   -v -MD -MT CMakeFiles/cmTC_cb92c.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_cb92c.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_cb92c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang version 16.0.6
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /sbin
+        Found candidate GCC installation: /sbin/../lib/gcc/x86_64-pc-linux-gnu/13.2.1
+        Found candidate GCC installation: /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1
+        Selected GCC installation: /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1
+        Candidate multilib: .;@m64
+        Candidate multilib: 32;@m32
+        Selected multilib: .;@m64
+         (in-process)
+         "/usr/bin/clang-16" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/zjj/Documents/eie/soft2/build/CMakeFiles/CMakeScratch/TryCompile-eOUvar -resource-dir /usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_cb92c.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_cb92c.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1 -internal-isystem /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/x86_64-pc-linux-gnu -internal-isystem /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/backward -internal-isystem /usr/lib/clang/16/include -internal-isystem /usr/local/include -internal-isystem /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir=/home/zjj/Documents/eie/soft2/build/CMakeFiles/CMakeScratch/TryCompile-eOUvar -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_cb92c.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-pc-linux-gnu
+        ignoring nonexistent directory "/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../x86_64-pc-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1
+         /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/x86_64-pc-linux-gnu
+         /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/backward
+         /usr/lib/clang/16/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        Linking CXX executable cmTC_cb92c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb92c.dir/link.txt --verbose=1
+        /sbin/clang++  -v CMakeFiles/cmTC_cb92c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_cb92c 
+        clang version 16.0.6
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /sbin
+        Found candidate GCC installation: /sbin/../lib/gcc/x86_64-pc-linux-gnu/13.2.1
+        Found candidate GCC installation: /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1
+        Selected GCC installation: /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1
+        Candidate multilib: .;@m64
+        Candidate multilib: 32;@m32
+        Selected multilib: .;@m64
+         "/sbin/ld" -pie --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_cb92c /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/Scrt1.o /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/crti.o /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1 -L/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib CMakeFiles/cmTC_cb92c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/crtn.o
+        make[1]: Leaving directory '/home/zjj/Documents/eie/soft2/build/CMakeFiles/CMakeScratch/TryCompile-eOUvar'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1]
+          add: [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/x86_64-pc-linux-gnu]
+          add: [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/backward]
+          add: [/usr/lib/clang/16/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1] ==> [/include/c++/13.2.1]
+        collapse include dir [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/x86_64-pc-linux-gnu] ==> [/include/c++/13.2.1/x86_64-pc-linux-gnu]
+        collapse include dir [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/backward] ==> [/include/c++/13.2.1/backward]
+        collapse include dir [/usr/lib/clang/16/include] ==> [/usr/lib/clang/16/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/include/c++/13.2.1;/include/c++/13.2.1/x86_64-pc-linux-gnu;/include/c++/13.2.1/backward;/usr/lib/clang/16/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/zjj/Documents/eie/soft2/build/CMakeFiles/CMakeScratch/TryCompile-eOUvar']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /sbin/make -f Makefile cmTC_cb92c/fast]
+        ignore line: [/sbin/make  -f CMakeFiles/cmTC_cb92c.dir/build.make CMakeFiles/cmTC_cb92c.dir/build]
+        ignore line: [make[1]: Entering directory '/home/zjj/Documents/eie/soft2/build/CMakeFiles/CMakeScratch/TryCompile-eOUvar']
+        ignore line: [Building CXX object CMakeFiles/cmTC_cb92c.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/sbin/clang++   -v -MD -MT CMakeFiles/cmTC_cb92c.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_cb92c.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_cb92c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 16.0.6]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /sbin]
+        ignore line: [Found candidate GCC installation: /sbin/../lib/gcc/x86_64-pc-linux-gnu/13.2.1]
+        ignore line: [Found candidate GCC installation: /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1]
+        ignore line: [Selected GCC installation: /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Candidate multilib: 32]
+        ignore line: [@m32]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/usr/bin/clang-16" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/zjj/Documents/eie/soft2/build/CMakeFiles/CMakeScratch/TryCompile-eOUvar -resource-dir /usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_cb92c.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_cb92c.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1 -internal-isystem /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/x86_64-pc-linux-gnu -internal-isystem /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/backward -internal-isystem /usr/lib/clang/16/include -internal-isystem /usr/local/include -internal-isystem /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir=/home/zjj/Documents/eie/soft2/build/CMakeFiles/CMakeScratch/TryCompile-eOUvar -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_cb92c.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-pc-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [ignoring nonexistent directory "/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1]
+        ignore line: [ /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/x86_64-pc-linux-gnu]
+        ignore line: [ /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/backward]
+        ignore line: [ /usr/lib/clang/16/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_cb92c]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb92c.dir/link.txt --verbose=1]
+        ignore line: [/sbin/clang++  -v CMakeFiles/cmTC_cb92c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_cb92c ]
+        ignore line: [clang version 16.0.6]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /sbin]
+        ignore line: [Found candidate GCC installation: /sbin/../lib/gcc/x86_64-pc-linux-gnu/13.2.1]
+        ignore line: [Found candidate GCC installation: /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1]
+        ignore line: [Selected GCC installation: /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Candidate multilib: 32]
+        ignore line: [@m32]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/sbin/ld" -pie --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_cb92c /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/Scrt1.o /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/crti.o /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1 -L/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib CMakeFiles/cmTC_cb92c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/crtn.o]
+          arg [/sbin/ld] ==> ignore
+          arg [-pie] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_cb92c] ==> ignore
+          arg [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/Scrt1.o] ==> obj [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/Scrt1.o]
+          arg [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/crti.o] ==> obj [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/crti.o]
+          arg [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o] ==> obj [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o]
+          arg [-L/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1] ==> dir [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1]
+          arg [-L/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64] ==> dir [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [CMakeFiles/cmTC_cb92c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o] ==> obj [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o]
+          arg [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/crtn.o] ==> obj [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/crtn.o]
+        collapse obj [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/Scrt1.o] ==> [/lib64/Scrt1.o]
+        collapse obj [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/crti.o] ==> [/lib64/crti.o]
+        collapse obj [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o] ==> [/lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o]
+        collapse obj [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o] ==> [/lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o]
+        collapse obj [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64/crtn.o] ==> [/lib64/crtn.o]
+        collapse library dir [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1] ==> [/lib64/gcc/x86_64-pc-linux-gnu/13.2.1]
+        collapse library dir [/sbin/../lib64/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib64] ==> [/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/lib64/Scrt1.o;/lib64/crti.o;/lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o;/lib64/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o;/lib64/crtn.o]
+        implicit dirs: [/lib64/gcc/x86_64-pc-linux-gnu/13.2.1;/lib64;/usr/lib64;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+...

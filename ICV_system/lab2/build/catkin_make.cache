@@ -1,0 +1,2 @@
+junjienb
+-DCATKIN_DEVEL_PREFIX=/home/agilex/jjzycar/songling2/devel -DCMAKE_INSTALL_PREFIX=/home/agilex/jjzycar/songling2/install -G Unix Makefiles

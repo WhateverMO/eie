@@ -1,0 +1,2 @@
+set(car_agilex_MESSAGE_FILES "/home/agilex/Documents/workspace/eie/soft/agilex_soft/agx3/src/car_agilex/msg/ActuatorState.msg;/home/agilex/Documents/workspace/eie/soft/agilex_soft/agx3/src/car_agilex/msg/LightState.msg;/home/agilex/Documents/workspace/eie/soft/agilex_soft/agx3/src/car_agilex/msg/ScoutState.msg")
+set(car_agilex_SERVICE_FILES "/home/agilex/Documents/workspace/eie/soft/agilex_soft/agx3/src/car_agilex/srv/ScoutMotionCmd.srv;/home/agilex/Documents/workspace/eie/soft/agilex_soft/agx3/src/car_agilex/srv/ScoutLightCmd.srv")

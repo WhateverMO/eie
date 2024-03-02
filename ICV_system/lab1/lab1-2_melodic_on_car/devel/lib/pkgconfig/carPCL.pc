@@ -1,0 +1,8 @@
+prefix=/home/agilex/Documents/workspace/eie/ICV_system/lab2_melodic_on_car/devel
+
+Name: carPCL
+Description: Description of carPCL
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

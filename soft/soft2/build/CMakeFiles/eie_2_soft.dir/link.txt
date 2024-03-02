@@ -1,0 +1,1 @@
+/sbin/clang++ CMakeFiles/eie_2_soft.dir/main.cpp.o CMakeFiles/eie_2_soft.dir/distribute.cpp.o -o eie_2_soft 

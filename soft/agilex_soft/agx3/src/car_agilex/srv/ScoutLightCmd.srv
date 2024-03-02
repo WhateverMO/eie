@@ -1,0 +1,10 @@
+bool enable_ctrl
+
+uint8 front_mode
+uint8 front_custom_value
+uint8 rear_mode
+uint8 rear_custom_value
+
+---
+
+bool result

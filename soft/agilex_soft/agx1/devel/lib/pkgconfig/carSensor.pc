@@ -1,0 +1,8 @@
+prefix=/home/agilex/Documents/workspace/eie/agilex_soft/agx1/devel
+
+Name: carSensor
+Description: Description of carSensor
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

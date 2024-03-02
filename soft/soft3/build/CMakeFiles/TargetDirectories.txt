@@ -1,0 +1,3 @@
+/home/zjj/Documents/eie/soft3/build/CMakeFiles/eie_3_soft.dir
+/home/zjj/Documents/eie/soft3/build/CMakeFiles/edit_cache.dir
+/home/zjj/Documents/eie/soft3/build/CMakeFiles/rebuild_cache.dir

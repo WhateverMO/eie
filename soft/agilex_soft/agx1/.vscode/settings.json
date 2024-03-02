@@ -1,0 +1,11 @@
+{
+    "cmake.sourceDirectory": "/home/agilex/Documents/workspace/eie/agilex_soft/agx1/src/carSensor",
+    "python.autoComplete.extraPaths": [
+        "/home/agilex/catkin_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/agilex/catkin_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ]
+}

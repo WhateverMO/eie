@@ -1,0 +1,11 @@
+float64 linear_velocity
+float64 angular_velocity
+
+float64 max_linear_velocity=1.5
+float64 min_linear_velocity=-1.5
+float64 max_angular_velocity=0.5235
+float64 min_angular_velocity=-0.5235
+
+---
+
+bool result

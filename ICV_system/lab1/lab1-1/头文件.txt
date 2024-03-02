@@ -1,0 +1,4 @@
+#include <pcl/filters/statistical_outlier_removal.h>   //统计滤波
+#include <pcl/filters/random_sample.h>    //随机采样
+#include <pcl/filters/voxel_grid.h>      //体素滤波
+#include <pcl/filters/passthrough.h>     //直通滤波

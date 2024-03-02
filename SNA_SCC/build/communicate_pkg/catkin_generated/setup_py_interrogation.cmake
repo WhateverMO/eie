@@ -1,0 +1,7 @@
+set(communicate_pkg_SETUP_PY_SETUP_MODULE "distutils.core")
+set(communicate_pkg_SETUP_PY_VERSION "0.0.0")
+set(communicate_pkg_SETUP_PY_SCRIPTS "")
+set(communicate_pkg_SETUP_PY_PACKAGES "communicate")
+set(communicate_pkg_SETUP_PY_PACKAGE_DIRS "./communicate")
+set(communicate_pkg_SETUP_PY_MODULES "")
+set(communicate_pkg_SETUP_PY_MODULE_DIRS "")

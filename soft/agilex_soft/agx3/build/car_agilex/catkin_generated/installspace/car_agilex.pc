@@ -1,0 +1,8 @@
+prefix=/home/agilex/Documents/workspace/eie/soft/agilex_soft/agx3/install
+
+Name: car_agilex
+Description: Description of car_agilex
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

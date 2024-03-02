@@ -1,0 +1,2 @@
+carPCL
+-DCATKIN_DEVEL_PREFIX=/home/agilex/Documents/workspace/eie/ICV_system/lab2_melodic_on_car/devel -DCMAKE_INSTALL_PREFIX=/home/agilex/Documents/workspace/eie/ICV_system/lab2_melodic_on_car/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/zjj/Documents/workspace/IS/install
+
+Name: communicate_pkg
+Description: Description of communicate_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

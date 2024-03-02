@@ -1,0 +1,8 @@
+prefix=/home/agilex/jjzycar/songling2/install
+
+Name: junjienb
+Description: Description of junjienb
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

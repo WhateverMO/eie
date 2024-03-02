@@ -1,0 +1,2 @@
+communicate_pkg
+-DCATKIN_DEVEL_PREFIX=/home/zjj/Documents/workspace/IS/devel -DCMAKE_INSTALL_PREFIX=/home/zjj/Documents/workspace/IS/install -G Unix Makefiles

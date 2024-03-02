@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "lab2"
+version = "0.1.0"
+description = ""
+authors = ["WhateverMO <2447583173@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8.0"
+matplotlib = ">=3.2.2"
+numpy = ">=1.18.5"
+opencv-python = ">=4.1.2"
+pillow = "^10.1.0"
+pyyaml = ">=5.3.1"
+scipy = ">=1.4.1"
+tqdm = ">=4.41.0"
+tensorboard = ">=2.4.1"
+seaborn = ">=0.11.0"
+thop = "^0.1.1.post2209072238"
+pycocotools = ">=2.0"
+pandas = "^2.0.3"
+
+torch = { version = ">=1.8.0", source="torch"}
+torchvision = { version = ">=0.9.0", source="torch"}
+ 
+[[tool.poetry.source]]
+name = "torch"
+url = "https://download.pytorch.org/whl/cpu/"
+priority = "supplemental"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,8 @@
+prefix=/home/zjj/Documents/eie/ICV_system/lab2/devel
+
+Name: carPCL
+Description: Description of carPCL
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/agilex/Documents/workspace/eie/ICV_system/lab3_melodic_on_car_realTime/install
+
+Name: realTime_Ransac
+Description: Description of realTime_Ransac
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
