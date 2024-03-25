@@ -1,0 +1,8 @@
+prefix=/home/zjj/Documents/workspace/eie/SNA_SCC/lab3/devel
+
+Name: SB
+Description: Description of SB
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
