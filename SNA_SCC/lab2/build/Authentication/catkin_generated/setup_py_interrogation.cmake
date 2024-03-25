@@ -1,0 +1,7 @@
+set(Authentication_SETUP_PY_SETUP_MODULE "distutils.core")
+set(Authentication_SETUP_PY_VERSION "0.0.0")
+set(Authentication_SETUP_PY_SCRIPTS "")
+set(Authentication_SETUP_PY_PACKAGES "Authentication")
+set(Authentication_SETUP_PY_PACKAGE_DIRS "./Authentication")
+set(Authentication_SETUP_PY_MODULES "")
+set(Authentication_SETUP_PY_MODULE_DIRS "")

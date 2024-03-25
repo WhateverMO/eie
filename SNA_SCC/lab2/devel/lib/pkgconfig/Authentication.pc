@@ -1,0 +1,8 @@
+prefix=/home/zjj/Documents/workspace/eie/SNA_SCC/lab2/devel
+
+Name: Authentication
+Description: Description of Authentication
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
