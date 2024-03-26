@@ -1,0 +1,8 @@
+uint32 user_id
+string otp_code
+string operation
+string resource
+string content
+---
+bool result
+string message
