@@ -1,0 +1,2 @@
+SSL
+-DCATKIN_DEVEL_PREFIX=/home/zjj/Documents/workspace/eie/SNA_SCC/lab4/devel -DCMAKE_INSTALL_PREFIX=/home/zjj/Documents/workspace/eie/SNA_SCC/lab4/install -G Unix Makefiles

@@ -1,0 +1,7 @@
+set(SSL_SETUP_PY_SETUP_MODULE "distutils.core")
+set(SSL_SETUP_PY_VERSION "0.0.0")
+set(SSL_SETUP_PY_SCRIPTS "")
+set(SSL_SETUP_PY_PACKAGES "Authentication;myssl")
+set(SSL_SETUP_PY_PACKAGE_DIRS "./Authentication;./myssl")
+set(SSL_SETUP_PY_MODULES "")
+set(SSL_SETUP_PY_MODULE_DIRS "")

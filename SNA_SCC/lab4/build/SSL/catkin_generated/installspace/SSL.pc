@@ -1,0 +1,8 @@
+prefix=/home/zjj/Documents/workspace/eie/SNA_SCC/lab4/install
+
+Name: SSL
+Description: Description of SSL
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 
