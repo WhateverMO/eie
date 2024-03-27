@@ -29,7 +29,7 @@ class RBAC:
             raise ValueError("User already exists")
         
     def add_resource2role(self, resource_index, role_name, writable, readable, executable):
-        permission = Permission(writable, readable, executable)
+        permission = Permission( readable, writable, executable)
         if role_name in self.roles.keys():
             role = self.roles[role_name]
             if resource_index in self.resources.keys():
@@ -64,7 +64,7 @@ class RBAC:
         if user_id not in self.users.keys():
             raise ValueError("User does not exist")
         user = self.users[user_id]
-        user.access(resource_index, operation, self.roles, self.resources, content)
+        return user.access(resource_index, operation, self.roles, self.resources, content)
         
     def get_all_resources(self):
         resources = {}

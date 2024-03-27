@@ -24,11 +24,14 @@ class Role:
         
     def access(self, resource_index, operation, resouce_dict, content = None):
         permission = self.access_control.check_permission(resource_index)
-        if permission.is_allowed(operation):
-            resource = resouce_dict[resource_index]
-            resource.operate(operation, content)
-        else:
-            raise operationError(f"Operation {operation} is not allowed for Role {self.name} on {resource}")
+        try:
+            if permission.is_allowed(operation):
+                resource = resouce_dict[resource_index]
+                return resource.operate(operation, content)
+            else:
+                raise operationError(f"Operation {operation} is not allowed for Role {self.name} on {resource}")
+        except KeyError:
+            raise KeyError(f"Resource {resource_index} not found")
         
     def change_permission(self, resource, permission):
         permission = self.access_control.check_permission(resource)

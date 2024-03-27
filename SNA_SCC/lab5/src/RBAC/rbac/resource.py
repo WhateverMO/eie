@@ -45,7 +45,9 @@ class Resource:
             if content is None:
                 raise ValueError("Content must be provided for write operation")
             self.content = content
+            return True
         elif operation == 'x':
             self.execute()
+            return True
         else:
             raise ValueError(f"Invalid operation: {operation}")

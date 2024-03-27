@@ -32,6 +32,7 @@ class RBACServer:
         self.rbac.add_resource2role(2, "guest", False, True, True)
     
     def handle_access_request(self, req:access):
+        rospy.loginfo("Received access request for user " + str(req.user_id) + " with operation " + str(req.operation) + " on resource " + str(req.resource) + " with content " + str(req.content))
         user_id = req.user_id
         otp_code = req.otp_code
         if not verify_otp_code(self.secret_key[user_id], otp_code):
@@ -41,19 +42,39 @@ class RBACServer:
             return accessResponse(False, "Invalid operation it should be one of the following: " + str(server_operations))
         if op == "add_role":
             self.rbac.assign_role_to_user(user_id, req.content)
+            rospy.loginfo("Role added to user " + str(user_id) + " with content " + str(req.content))
             return accessResponse(True, "Role added successfully")
         elif op == "show_roles":
             roles = self.rbac.get_all_roles()
+            rospy.loginfo("Roles: " + str(roles))
             return accessResponse(True, "Roles: " + str(roles))
         elif op == "show_resources":
             resources = self.rbac.get_all_resources()
+            rospy.loginfo("Resources: " + str(resources))
             return accessResponse(True, "Resources: " + str(resources))
         else:
             try:
-                self.rbac.access_resource(user_id, req.resource, op, req.content)
-                return accessResponse(True, "Access granted")
+                if req.content == "":
+                    content = None
+                else:
+                    content = req.content
+                try:
+                    resource_index = int(req.resource)
+                except:
+                    resource_index = None
+                resources = self.rbac.access_resource(user_id, resource_index, op, content)
+                if not resources:
+                    resources = "Access denied"
+                elif resources == True:
+                    resources = "Access granted"
+                rospy.loginfo("Access granted to user " + str(user_id) + " for operation " + str(op) + " on resource " + str(req.resource) + " with content " + str(req.content))
+                return accessResponse(True, resources)
             except Exception as e:
-                return accessResponse(False, str(e))
+                msg = "Access denied to user " + str(user_id) + " for operation " + str(op) + " on resource " + str(req.resource) + " with content " + str(req.content) + " due to error: " + str(e)
+                rospy.loginfo(msg)
+                # import traceback
+                # traceback.print_exc()
+                return accessResponse(False, msg)
 
 if __name__ == "__main__":
     rospy.init_node("rbac_server")

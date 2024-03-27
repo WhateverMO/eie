@@ -11,9 +11,17 @@ server_operations.extend([
 ])
 
 def access_server(user_id,secret_key,call_server):
-    print(server_operations)
+    # print server operations with index
+    print("Available operations:")
+    for i, operation in enumerate(server_operations):
+        print(str(i)+". "+operation,end=" ")
+    print()
     print("Please select an operation with index('9' to quit):")
-    index = int(input())
+    try:
+        index = int(input())
+    except ValueError:
+        print("Invalid input")
+        return True
     if index == 9:
         return False
     if index < 0 or index >= len(server_operations):

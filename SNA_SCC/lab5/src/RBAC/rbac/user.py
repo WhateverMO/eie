@@ -21,8 +21,12 @@ class User:
         
     def access(self, resource, operation, role_dict, resource_dict, content = None):
         roles = self.access_control.check_permission()
-        for role_name in roles:
-            role = role_dict[role_name]
-            if role.access(resource, operation, resource_dict, content):
-                return True
+        for role in roles:
+            role = role_dict[role.name]
+            try:
+                ret = role.access(resource, operation, resource_dict, content)
+                if ret:
+                    return ret
+            except KeyError:
+                continue
         return False

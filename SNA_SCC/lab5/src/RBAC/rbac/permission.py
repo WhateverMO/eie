@@ -23,5 +23,6 @@ class Permission:
     def is_allowed(self, operation):
         if operation not in operations:
             raise operationError('Invalid operation')
+        # print(self.operations)
         return self.operations[operation]
         
