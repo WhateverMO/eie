@@ -1,0 +1,5 @@
+--- old_file.py
++++ new_file.py
+@@ -1 +1 @@
+-print('Hello, old world!')
++print('Hello, new world!')

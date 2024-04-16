@@ -1,0 +1,2 @@
+OTA
+-DCATKIN_DEVEL_PREFIX=/home/zjj/Documents/workspace/eie/SNA_SCC/lab6/devel -DCMAKE_INSTALL_PREFIX=/home/zjj/Documents/workspace/eie/SNA_SCC/lab6/install -G Unix Makefiles

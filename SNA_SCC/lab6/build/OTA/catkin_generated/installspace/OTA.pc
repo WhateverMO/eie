@@ -1,0 +1,8 @@
+prefix=/home/zjj/Documents/workspace/eie/SNA_SCC/lab6/install
+
+Name: OTA
+Description: Description of OTA
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 
